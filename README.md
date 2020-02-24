@@ -1,2 +1,7 @@
-# pydevs
-Projeto integrador FATEC 20.1
+# Projeto Integrador 2020.1
+## Integrantes
+  - André Luiz Dias Custódio
+  - Caroline
+  - Denise
+  - Fábio
+  - Wilson
