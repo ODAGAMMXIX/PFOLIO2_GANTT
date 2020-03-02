@@ -1,7 +1,7 @@
 # Projeto Integrador 2020.1
 ## Integrantes
   - André Luiz Dias Custódio
-  - Caroline
-  - Denise
-  - Fábio
-  - Wilson
+  - CarolinePaz de Souza
+  - Denise de Oliveira Silva
+  - Fábio Odaguiri
+  - Wilson Amore Vieira Filho
