@@ -17,3 +17,5 @@
 
 
 ## Tecnologias aplicadas
+ - Python
+ -
