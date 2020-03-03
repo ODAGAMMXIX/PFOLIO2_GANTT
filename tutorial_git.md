@@ -1,4 +1,4 @@
-#Git basic Tutorial
+# Git basic Tutorial
 
 No terminal ou no GitBash, clone o nosso repositório na pasta desejada com o seguinte comando:  
   `git clone https://github.com/pydevelopers/pydevs`
@@ -19,7 +19,7 @@ Crie uma branch a partir dela. Para criar uma branch a partir de uma branch já 
 
 Depois disso, só trabalhar em sua branch!
 
-##Commits
+## Commits
 
 Para realizar os commits pelo terminal ou gitbash (caso não esteja usando alguma IDE integrada), basta digitar:   
   `git status`  
