@@ -14,6 +14,7 @@ Você também pode verificar em que branch está com o comando:
 
 Em todo inicio de sprint, será criada uma branch com o nome da sprint(first_sprint, second_sprint, etc).
 Crie uma branch a partir dela. Para criar uma branch a partir de uma branch já existente, basta usar:  
+  `git checkout 'nome da branch de origem'`   
   `git checkout -b 'nome da branch a ser criada' 'nome da branch de origem'`  
   e.g. `git checkout -b branch_andre first_sprint`
 
