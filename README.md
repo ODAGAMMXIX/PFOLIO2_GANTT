@@ -4,7 +4,7 @@
 ## Integrantes
 
   - André Luiz Dias Custódio
-  - Caroline Paz de Souza
+  - Caroline Paz de Sousa
   - Denise de Oliveira Silva
   - Fábio Odaguiri
   - Wilson Amore Vieira Filho
