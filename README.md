@@ -3,7 +3,7 @@
 # Projeto Integrador - 2º semestre BD
 ## Disciplinas:
 * Engenharia de Software - Prof Giuliano Bertotti
-* Lab II - Adriana Jacinto
+* Lab II - Prof Adriana Jacinto
 * Arquitetura de Banco de Dados - Prof Emanuel Mineda
 
 
@@ -14,13 +14,13 @@
   * Fábio Odaguiri RA: 1460281923008
   * Wilson Amore Vieira Filho RA: 1460281923041
 
-# Introdução:
+## Introdução:
 
   O presente documento visa apresentar soluções e atender as necessidades do cliente,este documento   possibilita a identificação,extração e classificação dos requisitos...
 **(COMPLEMENTAR  - FABIO)**
 
-# Elicitação e Identificação de Requisitos
- # Declaração do Problema:
+## Elicitação e Identificação de Requisitos
+ ### Declaração do Problema:
  
 O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia, e solicita um     programa simples e funcional com baixa manutenção, para a realização das seguintes tarefas, a fim     gerenciar as demandas que chegam até a empresa, sendo elas:
 
@@ -33,7 +33,7 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 * Limitar a quantidade de horas trabalhadas por cada colaborador a fim de evitar sobrecargas;
 
 
-# Especificação de Requisitos:
+## Especificação de Requisitos:
  ### Funcionais:
 
 * Diagrama interativo para os gestores. 
@@ -58,7 +58,7 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 * O sistema deve utilizar cores na construção do gráfico para melhor identificação dos projetos/tarefas em andamento.
 
 
-# Proposta
+## Proposta
 
  A seguinte proposta visa entregar um  sistema desktop que gere diagrama interativo (Gantt) de controle de tarefas, projetos e carga horária de cada recurso,trazendo uma interface intuitiva e amigável ao usuário.
 
@@ -67,15 +67,15 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 ### Visão:
 Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
 
-###  Usabilidade:
+##  Usabilidade:
  **(INSERIR AQUI AS HEURISTICAS)**
 
-# Instalação:
+## Instalação:
 **COLOCAR AS ESPECIFICAÇÕES AQUI**
 
 
 
-# Tecnologias aplicadas
+## Tecnologias aplicadas
 
  - Gantt / JFreeCharts
  - Java
