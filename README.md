@@ -1,9 +1,7 @@
-# PYDEVS
 # Projeto Integrador 2020.1
 
 ## Integrantes
-
-  - André Luiz Dias Custódio
+ 
   - Caroline Paz de Sousa
   - Denise de Oliveira Silva
   - Fábio Odaguiri
