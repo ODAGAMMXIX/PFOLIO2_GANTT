@@ -16,7 +16,7 @@
 # Introdução:
 
   O presente documento visa apresentar soluções e atender as necessidades do cliente,este documento   possibilita a identificação,extração e classificação dos requisitos...
-**(COMPLEMENTAR)**
+**(COMPLEMENTAR  - FABIO)**
 
 # Elicitação e Identificação de Requisitos
  ## Declaração do Problema:
@@ -43,7 +43,7 @@
 * Mostrar a quantidade de  horas /custo alocados em cada projeto.
 * Controlar o calendário a fim de monitorar os(dias úteis, finais de semana, feriados, férias/ absenteísmo  etc
 
-**INSERIR TABELA AQUI**
+**WILSON INSERIR AS  TABELAS AQUI**
 **INSERIR DIAGRAMA DE CASO DE USO**
 **INSERIR DIAGRAMA DE SEQUENCIA**
 
@@ -60,7 +60,7 @@
 
  A seguinte proposta visa entregar um  sistema desktop que gere diagrama interativo (Gantt) de controle de tarefas, projetos e carga horária de cada recurso,trazendo uma interface intuitiva e amigável ao usuário.
 
-**INSERIR OS GIFS AQUI**
+**WILSON - INSERIR OS GIFS AQUI**
 
 ### Visão:
 Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
