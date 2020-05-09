@@ -45,7 +45,8 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 * Mostrar a quantidade de  horas /custo alocados em cada projeto.
 * Controlar o calendário a fim de monitorar os(dias úteis, finais de semana, feriados, férias/ absenteísmo  etc
 
-**WILSON INSERIR AS  TABELAS AQUI**
+![tABELA I 2020-05-09 16 16 50](https://user-images.githubusercontent.com/61067500/81482962-025d7500-9211-11ea-81de-9508c7949e67.png)
+
 **INSERIR DIAGRAMA DE CASO DE USO**
 **INSERIR DIAGRAMA DE SEQUENCIA**
 
