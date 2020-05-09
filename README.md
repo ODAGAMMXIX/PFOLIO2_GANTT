@@ -45,9 +45,26 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 * Mostrar a quantidade de  horas /custo alocados em cada projeto.
 * Controlar o calendário a fim de monitorar os(dias úteis, finais de semana, feriados, férias/ absenteísmo  etc
 
-![tABELA I 2020-05-09 16 16 50](https://user-images.githubusercontent.com/61067500/81482962-025d7500-9211-11ea-81de-9508c7949e67.png)
+
+
+|NOME|Cod|Descrição|
+|----|--|----------|
+|Diagrama Interativo|R1|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
+|Cálculo de horas |R2|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
+|Cadastro de Tarefas|R3|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
+|Cadastro de Colaboradores|R4|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
+|Fluxo de Caixa|R5|O sistema deve gerenciar fluxo de caixa|
+|Relatórios|R6|Gerar relatórios com relação prazo/preço, e comparativo de tarefas e projetos atuais e futuros.|
+|Horas|R7|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
+|Calendário|R8|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, absenteísmo etc.|
+
+
+
+
 
 **INSERIR DIAGRAMA DE CASO DE USO**
+
+
 **INSERIR DIAGRAMA DE SEQUENCIA**
 
 ### Não funcionais:
@@ -62,8 +79,15 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 ## Proposta
 
  A seguinte proposta visa entregar um  sistema desktop que gere diagrama interativo (Gantt) de controle de tarefas, projetos e carga horária de cada recurso,trazendo uma interface intuitiva e amigável ao usuário.
+ 
+ ![gantt4](https://user-images.githubusercontent.com/54503903/81460735-9da50a80-917d-11ea-8d43-042b45c3241a.gif)
+ 
+ 
+ ![gantt3](https://user-images.githubusercontent.com/54503903/81460795-feccde00-917d-11ea-8d71-061152ad9dd1.gif)
+ 
+ 
+ ![gantt1](https://user-images.githubusercontent.com/54503903/81460361-5158cb00-917b-11ea-9c1f-9fc04561a573.gif)
 
-**WILSON - INSERIR OS GIFS AQUI**
 
 ### Visão:
 Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
