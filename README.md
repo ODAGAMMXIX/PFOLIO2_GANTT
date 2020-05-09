@@ -1,4 +1,4 @@
-![fatec](https://user-images.githubusercontent.com/61067500/81479504-0b8f1780-91fa-11ea-9c2a-d8f25a383547.png)  ![necto](https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png)
+![fatecsjc](https://user-images.githubusercontent.com/61067500/81479822-23679b00-91fc-11ea-8ee6-3737cfb4d6be.jpg)![necto](https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png)
 
 
 # Projeto Integrador - 2º semestre BD
