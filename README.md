@@ -1,5 +1,3 @@
-https://github.com/pydevelopers/pydevs.git
-
 
 # Projeto Integrador - 2º semestre BD
 ## Disciplinas:
