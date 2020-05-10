@@ -90,11 +90,11 @@ A interface será intuitiva para que o usuário tenha uma melhor experiência e 
 
 ## Instalação:
 
-*Instalação Desktop  
+* Instalação Desktop  
 
-*Arquivo executável  
+* Arquivo executável  
 
-*Disponível nas plataformas Windows, Linux e Mac OS  
+* Disponível nas plataformas Windows, Linux e Mac OS  
 
 
 
