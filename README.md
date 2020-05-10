@@ -22,7 +22,7 @@
 ## Elicitação e Identificação de Requisitos
  ### Declaração do Problema:
  
-O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia, e solicita um     programa simples e funcional com baixa manutenção, para a realização das seguintes tarefas, a fim     gerenciar as demandas que chegam até a empresa, sendo elas:
+O cliente NECTO, que enfrenta algumas dificuldades gerenciais em seu dia a dia, e solicita um programa simples e funcional com baixa manutenção, para a realização das seguintes tarefas, a fim de gerenciar as demandas que chegam até a empresa, sendo elas:
 
 
 
@@ -47,8 +47,8 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 
 ![tABELA I 2020-05-09 16 16 50](https://user-images.githubusercontent.com/61067500/81482962-025d7500-9211-11ea-81de-9508c7949e67.png)
 
-**INSERIR DIAGRAMA DE CASO DE USO**
-**INSERIR DIAGRAMA DE SEQUENCIA**
+**DIAGRAMA DE CASO DE USO**
+![Diagrama de caso de uso_Final](https://user-images.githubusercontent.com/61089745/81488663-1a99b800-9242-11ea-8d1e-8a217660276a.PNG)
 
 ### Não funcionais:
 
@@ -69,10 +69,27 @@ O cliente NECTUS, que enfrenta algumas dificuldades gerenciais em seu dia a dia,
 Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
 
 ##  Usabilidade:
- **(INSERIR AQUI AS HEURISTICAS)**
+ **HEURISTICAS**
+ 
+*Correspondência entre o sistema e o mundo real
+O sistema possuirá uma interface simplista com menus e botões de ações de fácil entendimento, utilizando uma linguagem familiar que seus usuários obtém no dia a dia.
+
+*Controle do usuário e liberdade
+Com o sistema intuitivo, o usuário possurái uma certa liberdade no sistema, minimizando erros, pois os usuários conseguirá de uma forma clara identificar as suas funcionalidades e comandos disponíveis, sem precisar decorar algum procedimento.
+
+*Design estético e minimalista
+Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras para quando o responsável acessar a plataforma, consiga gerar relatórios de maneira ágil.
+
+*Ajuda e documentação
+A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, evitando desperdício de tempo lendo manual e documentação do sistema.
+
 
 ## Instalação:
-**COLOCAR AS ESPECIFICAÇÕES AQUI**
+
+*Instalação Desktop
+*Arquivo executável
+*Disponível nas plataformas Windows, Linux e Mac OS
+
 
 
 
