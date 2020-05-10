@@ -71,24 +71,31 @@ Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de
 ##  Usabilidade:
  **HEURISTICAS**
  
-*Correspondência entre o sistema e o mundo real
+*Correspondência entre o sistema e o mundo real  
+
 O sistema possuirá uma interface simplista com menus e botões de ações de fácil entendimento, utilizando uma linguagem familiar que seus usuários obtém no dia a dia.
 
-*Controle do usuário e liberdade
+*Controle do usuário e liberdade  
+
 Com o sistema intuitivo, o usuário possurái uma certa liberdade no sistema, minimizando erros, pois os usuários conseguirá de uma forma clara identificar as suas funcionalidades e comandos disponíveis, sem precisar decorar algum procedimento.
 
-*Design estético e minimalista
+*Design estético e minimalista  
+
 Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras para quando o responsável acessar a plataforma, consiga gerar relatórios de maneira ágil.
 
-*Ajuda e documentação
+*Ajuda e documentação  
+
 A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, evitando desperdício de tempo lendo manual e documentação do sistema.
 
 
 ## Instalação:
 
-*Instalação Desktop
-*Arquivo executável
-*Disponível nas plataformas Windows, Linux e Mac OS
+*Instalação Desktop  
+
+*Arquivo executável  
+
+*Disponível nas plataformas Windows, Linux e Mac OS  
+
 
 
 
