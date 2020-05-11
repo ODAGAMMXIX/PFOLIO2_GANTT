@@ -78,7 +78,8 @@ O cliente NECTO, que enfrenta algumas dificuldades gerenciais em seu dia a dia, 
  ![gantt3](https://user-images.githubusercontent.com/54503903/81460795-feccde00-917d-11ea-8d71-061152ad9dd1.gif)
  
  
- ![gantt1](https://user-images.githubusercontent.com/54503903/81460361-5158cb00-917b-11ea-9c1f-9fc04561a573.gif)
+ ![gantt5](https://user-images.githubusercontent.com/54503903/81517212-89454700-9310-11ea-84f5-e20f23d8fb15.gif)
+
 
 ### Visão:
 Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
