@@ -57,7 +57,7 @@ O cliente NECTO, que enfrenta algumas dificuldades gerenciais em seu dia a dia, 
 |Calendário|R8|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, absenteísmo etc.|
 
 **DIAGRAMA DE CASO DE USO**
-![Diagrama de caso de uso_Final](https://user-images.githubusercontent.com/61089745/81488663-1a99b800-9242-11ea-8d1e-8a217660276a.PNG)
+![Diagrama de caso de uso_Atualizado](https://user-images.githubusercontent.com/61089745/81743282-ced05400-9477-11ea-96bb-afa824678ecf.PNG)
 
 ### Não funcionais:
 
