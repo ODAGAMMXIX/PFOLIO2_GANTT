@@ -60,10 +60,10 @@ O cliente "Cadu" da empresa NECTO, enfrenta algumas dificuldades gerenciais nos 
 
 ### Não funcionais:
 
-* Sistema leve.
-* Baixa manutenção.
-* Portabilidade : o  sistema deverá rodar em qualquer plataforma.
-* Intuitivo
+* Sistema leve;
+* Baixa manutenção;
+* Portabilidade : o  sistema deverá rodar em qualquer plataforma;
+* Intuitivo.
 
 
 
@@ -92,7 +92,7 @@ O sistema possuirá uma interface intuitiva com menus e botões de ações de f�
 
 * Controle do usuário e liberdade  
 
-Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois os usuários conseguirá de uma forma clara identificar as suas funcionalidades e comandos disponíveis, sem precisar decorar algum procedimento. Sendo a facilidade em indentificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário, para acrescentar um novo projeto e tarefas, só será aceito no sistema caso aperte o botão "Salvar", ao realizar qualquer alteração no sistema abrirá uma caixa modal perguntando se realmente deseja realizar a modificação, assim minimizando erros ao longo da usabilidade do sistema. 
+Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois os usuários conseguirá de uma forma clara identificar as suas funcionalidades e comandos disponíveis, sem precisar decorar algum procedimento. Sendo a facilidade em indentificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário, para acrescentar um novo projeto e tarefas só será aceito no sistema caso aperte o botão "Salvar", ao realizar qualquer alteração no sistema abrirá uma caixa modal perguntando se realmente deseja realizar a modificação, assim minimizando erros ao longo da usabilidade do sistema. 
 
 * Design estético e minimalista  
 
