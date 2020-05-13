@@ -16,8 +16,10 @@
 
 ## Introdução:
 
-  O presente documento visa apresentar soluções e atender as necessidades do cliente, este documento possibilita a identificação, extração e classificação dos requisitos que serão contemplados para desenvolver o projeto.
-**(COMPLEMENTAR  - FABIO)**
+  O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
+  A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
+  Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências. Sua GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc.
+  Será utilizado o Java como linguagem de programação.
 
 ## Elicitação e Identificação de Requisitos
  ### Declaração do Problema:
