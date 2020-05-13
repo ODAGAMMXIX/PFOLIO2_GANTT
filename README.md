@@ -17,34 +17,41 @@
 ## Introdução:
 
   O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
-  A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
-  Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências. Sua GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc.
-  Será utilizado o Java como linguagem de programação.
+ 
+ A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
+
+Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências. 
+
+A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc.
+
+Será utilizado o Java como linguagem de programação.
 
 ## Elicitação e Identificação de Requisitos
  ### Declaração do Problema:
  
-O cliente "Cadu" da empresa NECTO, enfrenta algumas dificuldades gerenciais nos projetos de sua equipe no dia a dia, assim solicita um programa simples e funcional com baixa manutenção, para a realização das seguintes tarefas, a fim de gerenciar as demandas que chegam até a empresa, sendo elas:
+A cliente NECTO busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias,  ausências por motivos particulares e de saúde de cada colaborador.
+
+Com base nesse briefing, solicita um programa simples e funcional, de baixa manutenção, para a realização de seu planejamento, especialmente:
 
 * Gerenciar as cargas horárias em cada tarefa dos colaboradores;
-* Distribuição mais uniforme das tarefas para os colaboradores;
-* Equilibrar as demandas dos projetos para os clientes e colaboradores;
-* Gerenciar a quantidade de tarefas e projetos possíveis de realizar por vez;
-* Limitar a quantidade de horas trabalhadas por cada colaborador a fim de evitar sobrecargas.
+* Distribuir mais uniformemente as tarefas para os colaboradores;
+* Equilibrar a relação custo x receita dos projetos;
+* Obter previsibilidade de faturamento e de ações comerciais;
+* Gerenciar a quantidade de tarefas e projetos possíveis com uma determinada equipe;
+* Limitar a quantidade de horas trabalhadas por colaborador a fim de evitar sobrecargas.
 
 
 ## Especificação de Requisitos:
  ### Funcionais:
 
-* Diagrama interativo para os gestores;
-* Calcular as horas totais do projeto com base na carga horária das tasks;
+* Manipular a GUI na forma de diagrama interativo;
 * Cadastrar tarefas e projetos;
-* Cadastrar colaboradores e realizar autenticação dos usuários(administrador,operador,etc);
-* Realizar a gestão do fluxo de caixa;
-* Interdependência entre tarefas;
-* Gerar relatórios com relação prazo/preço, comparativo de tarefas e projetos atuais e futuros;
-* Mostrar a quantidade de  horas /custo alocados em cada projeto;
-* Controlar o calendário a fim de monitorar os dias úteis, finais de semana, feriados, férias/ absenteísmo, entre outros.
+* Criar interdependência entre tarefas;
+* Cadastrar colaboradores e realizar autenticação dos usuários (administrador,operador,etc);
+* Calcular as horas totais do projeto com base na carga horária das tarefas (tasks);
+* Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto;
+* Gerar relatórios;
+* Dispor da informação sobre prazos reais e líquidos, contemplando calendário com dias úteis, finais de semana, feriados, férias e ausências, entre outros.
 
 |NOME|Cod|Descrição|
 |----|--|----------|
