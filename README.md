@@ -11,7 +11,7 @@
  
   * Caroline Paz de Sousa RA: 1460281923049
   * Denise de Oliveira Silva RA: 1460281923007
-  * Fábio Odaguiri RA: 1460281923008
+  * Fabio Odaguiri RA: 1460281923008
   * Wilson Amore Vieira Filho RA: 1460281923041
 
 ## Introdução:
@@ -39,6 +39,9 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Obter previsibilidade de faturamento e de ações comerciais;
 * Gerenciar a quantidade de tarefas e projetos possíveis com uma determinada equipe;
 * Limitar a quantidade de horas trabalhadas por colaborador a fim de evitar sobrecargas.
+* Permitir a divisão de uma tarefa por dia (um dia = unidade mínima de tempo);
+* Exportar arquivo para envio a terceiros (cliente e outros stakeholders, em PDF ou HTML ou GDOCs);
+* Gerar Relatório;
 
 
 ## Especificação de Requisitos:
@@ -49,8 +52,9 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Criar interdependência entre tarefas;
 * Cadastrar colaboradores e realizar autenticação dos usuários (administrador,operador,etc);
 * Calcular as horas totais do projeto com base na carga horária das tarefas (tasks);
-* Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto;
-* Gerar relatórios;
+* Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto, por dia. por semana, por mês e um "Grand Total";
+* Gerar relatórios por desenvolvedor, por período;
+* Armazenar dados (busca-se autosalvamento e versionamento de arquivo);
 * Dispor da informação sobre prazos reais e líquidos, contemplando calendário com dias úteis, finais de semana, feriados, férias e ausências, entre outros.
 
 |NOME|Cod|Descrição|
@@ -59,10 +63,10 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 |Cálculo de horas |R2|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
 |Cadastro de Tarefas|R3|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
 |Cadastro de Colaboradores|R4|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
-|Fluxo de Caixa|R5|O sistema deve gerenciar fluxo de caixa|
-|Relatórios|R6|Gerar relatórios com relação prazo/preço, e comparativo de tarefas e projetos atuais e futuros.|
-|Horas|R7|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
-|Calendário|R8|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, absenteísmo etc.|
+|Relatórios|R5|Gerar relatórios.|
+|Horas|R6|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
+|Calendário|R7|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, e outras ausências.|
+|Importação|R8| O sistema poderá importar planilha (desnecessária a sua exportação).
 
 **DIAGRAMA DE CASO DE USO**
 ![Diagrama de caso de uso_Atualizado](https://user-images.githubusercontent.com/61089745/81743282-ced05400-9477-11ea-96bb-afa824678ecf.PNG)
@@ -71,22 +75,24 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 * Sistema leve;
 * Baixa manutenção;
-* Portabilidade : o  sistema deverá rodar em qualquer plataforma;
-* Intuitivo.
-
+* Portabilidade: o  sistema deverá rodar em qualquer plataforma;
+* Intuitivo;
+* Colorido;
+* Visual;
+* Gerencialmente Inteligível;
 
 
 ## Proposta
 
- A seguinte proposta visa entregar um  sistema desktop que gere diagrama interativo (Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
+ A seguinte proposta visa entregar um  sistema que gere diagrama interativo (Gráfico de Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
 
- ![sprint1_1](https://user-images.githubusercontent.com/54503903/81874733-e7fb0280-9554-11ea-87b8-fe689079100a.gif)
+ ![gantt4](https://user-images.githubusercontent.com/54503903/81460735-9da50a80-917d-11ea-8d43-042b45c3241a.gif)
  
  
- ![sprint1_2](https://user-images.githubusercontent.com/54503903/81874756-f47f5b00-9554-11ea-9914-bf3bcb1b1c4e.gif)
+ ![gantt3](https://user-images.githubusercontent.com/54503903/81460795-feccde00-917d-11ea-8d71-061152ad9dd1.gif)
  
  
- ![sprint1_3](https://user-images.githubusercontent.com/54503903/81874769-fea15980-9554-11ea-9eff-5f1b2235be99.gif)
+ ![gantt5](https://user-images.githubusercontent.com/54503903/81517212-89454700-9310-11ea-84f5-e20f23d8fb15.gif)
 
 
 ### Visão:
@@ -97,15 +103,15 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
  
 * Correspondência entre o sistema e o mundo real  
 
-O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando um dialeto familiar que seus usuários obtém no dia a dia. Sendo, ao excluir uma tarefa, para identificar essa ação conterá o botão "deletar", o calendário de acompanhamento de atividades do projeto será em português e para inserir novos projetos e novas tarefas serão sinalizadas com o sinal de mais "+".
+O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando um nomenclatura familiar aos seus usuários. As ações tais quais exclusão ou criação de nova tarefa/projeto serão realizadas por meio de botões/opções de menu sinalizados por "deletar" ou simplesmente "X", tanto quanto "adicionar" ou "+". O calendário de acompanhamento de atividades do projeto será em português. Busca-se uma interface clique-e-arraste, induzindo os caminhos para que a utilização seja fluída.
 
 * Controle do usuário e liberdade  
 
-Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois os usuários conseguirá de uma forma clara identificar as suas funcionalidades e comandos disponíveis, sem precisar decorar algum procedimento. Sendo a facilidade em indentificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário, para acrescentar um novo projeto e tarefas só será aceito no sistema caso aperte o botão "Salvar", ao realizar qualquer alteração no sistema abrirá uma caixa modal perguntando se realmente deseja realizar a modificação, assim minimizando erros ao longo da usabilidade do sistema. 
+Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois conseguirá identificar claramente  as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em indentificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário (campo de senha é CASE SENSITIVE), almeja-se que tenha autosalvamento, controle de versões, permitindo simulações (usabilidade do sistema). 
 
 * Design estético e minimalista  
 
-Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras para quando o responsável acessar a plataforma, consiga gerar relatórios de maneira ágil. O sistema deve utilizar cores na construção do gráfico para melhor identificação dos projetos/tarefas em andamento e identificação de interdependência das atividades.
+Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras coloridos, ícones familiares. O sistema deve utilizar cores na construção do gráfico para melhor identificação dos projetos/tarefas/pessoas em andamento e identificação de interdependência das atividades.
 
 * Ajuda e documentação  
 
@@ -114,17 +120,11 @@ A interface será intuitiva para que o usuário tenha uma melhor experiência e 
 
 ## Instalação:
 
-* Instalação Desktop;  
+Após os primeiros testes com nosso código, será possível decidir entre hospedagem em um endereço para acesso por meio de um navegador ou, se será necessária a instalação local nos computadores, com arquivo executável.
 
-* Arquivo executável;  
+A princípio, será compatível nas plataformas Windows, Linux e Mac OS.  
 
-* Disponível nas plataformas Windows, Linux e Mac OS.  
-
-
-
-
-
-## Tecnologias aplicadas
+## Tecnologias e Metodologias aplicadas
 
  - Gantt / JFreeCharts
  - Java
