@@ -86,13 +86,14 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 A seguinte proposta visa entregar um sistema que gere diagrama interativo (Gráfico de Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
 
-![gantt4](https://user-images.githubusercontent.com/54503903/81460735-9da50a80-917d-11ea-8d43-042b45c3241a.gif)
+![sprint1_1](https://user-images.githubusercontent.com/54503903/81874733-e7fb0280-9554-11ea-87b8-fe689079100a.gif)
 
 
-![gantt3](https://user-images.githubusercontent.com/54503903/81460795-feccde00-917d-11ea-8d71-061152ad9dd1.gif)
+![sprint1_2](https://user-images.githubusercontent.com/54503903/81874756-f47f5b00-9554-11ea-9914-bf3bcb1b1c4e.gif)
 
 
-![gantt5](https://user-images.githubusercontent.com/54503903/81517212-89454700-9310-11ea-84f5-e20f23d8fb15.gif)
+![sprint1_3](https://user-images.githubusercontent.com/54503903/81874769-fea15980-9554-11ea-9eff-5f1b2235be99.gif)
+
 
 
 ### Visão:
