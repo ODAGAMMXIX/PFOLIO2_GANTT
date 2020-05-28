@@ -31,7 +31,7 @@ A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o 
 
 Será utilizado o Java como linguagem de programação.
 
-## Elicitação e Identificação de Requisitos
+## Elicitação, Story Cards e Identificação de Requisitos
 ### Declaração do Problema:
 
 A cliente NECTO busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias, ausências por motivos particulares e de saúde de cada colaborador.
@@ -48,6 +48,22 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Exportar arquivo para envio a terceiros (cliente e outros stakeholders, em PDF ou HTML ou GDOCs);
 * Gerar Relatório;
 
+## Story Cards:
+* Cadastrar Tarefa: Clicar na tela, abrir caixa de diálogo, digitar nome do projeto e, abrir caixa de diálogo com dropdown list para escolher:
+	- dia inicial;
+	- dia final;
+	- pessoa;
+	- indicar dependência com outra(s) tarefa(s).
+* Arrastar Tarefa: Ao clicar na tarefa, pode-se aumentar/diminuir o tempo e assistir as alterações dos quadrantes de controle.
+Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, alterar-se-á as informações de:
+	- horas alocadas por pessoa;
+	- horas disponíveis por pessoa;
+	- Porcentagem de ocupação;
+	- Horas da equipe alocadas por dia;
+	- Horas da equipe alocadas por semana;
+	- Horas da equipe alocadas por mês;
+	- Lista tarefa-início-pessoa-duração;
+* Código de Cores: Para melhor usabilidade e distinção das diversas informações, pessoas/dias/semanas/meses poderão sofrer alteração de cor para permitir a identificação instantâneas de sobrecarga e possibilitar mudanças pelo gestor do(s) projeto(s).
 
 ## Especificação de Requisitos:
 ### Funcionais:
