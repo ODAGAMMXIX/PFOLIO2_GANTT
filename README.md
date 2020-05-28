@@ -64,6 +64,7 @@ Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, a
 	- Horas da equipe alocadas por mês;
 	- Lista tarefa-início-pessoa-duração;
 * Código de Cores: Para melhor usabilidade e distinção das diversas informações, pessoas/dias/semanas/meses poderão sofrer alteração de cor para permitir a identificação instantâneas de sobrecarga e possibilitar mudanças pelo gestor do(s) projeto(s).
+* Deletar Tarefa: Perguntar se tem certeza e confirmar;
 
 ## Especificação de Requisitos:
 ### Funcionais:
