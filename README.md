@@ -141,6 +141,8 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 ## Entrega 01 - 18  de março de 2020.
 
 ## Entrega 02 - 15  de maio de 2020.
+![200513-Segunda-Entrega-PI-Pydevs-v2.pdf](https://github.com/ODAGAMMXIX/GANTT/files/4692611/200513-Segunda-Entrega-PI-Pydevs-v2.pdf) <img align="left" width="100" height="100" src=https://github.com/ODAGAMMXIX/GANTT/files/4692611/200513-Segunda-Entrega-PI-Pydevs-v2.pdf">
+
 ![Quadrante 2 de 4 da Tela (GANTT-NECTO)](https://user-images.githubusercontent.com/54047352/83085242-bfe5c600-a061-11ea-8aaf-9350cc7e52bd.png) <img align="left" width="100" height="100" src=https://user-images.githubusercontent.com/54047352/83085242-bfe5c600-a061-11ea-8aaf-9350cc7e52bd.png">
 
 ## Entrega 03 - 29  de maio de 2020.
