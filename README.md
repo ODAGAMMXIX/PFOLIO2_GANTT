@@ -3,9 +3,11 @@
 # Projeto Integrador - 2º semestre BD
 ## Disciplinas:
 * Engenharia de Software - Prof Giuliano Bertotti
-* Laboratório de Desenvolvimento de Banco de Dados II - Prof Adriana Jacinto
+* Laboratório de Desenvolvimento de Banco de Dados II c/c Linguagem De Programação I - Prof Adriana Jacinto
 * Arquitetura e Modelagem de Banco de Dados - Prof Emanuel Mineda
-
+* Planejamento Estratégico c/c Fundamentos De Gestão De Pessoas - Prof  Walter João De Sousa
+* Fundamentos De Cálculo: Dercy Felix Da Silva
+* Estatística Descritiva: Nanci De Oliveira
 
 ## Integrantes:
 
@@ -14,7 +16,6 @@
 * Fabio Odaguiri RA: 1460281923008
 * Wilson Amore Vieira Filho RA: 1460281923041
 	
-
 
 [![youtube](https://user-images.githubusercontent.com/54503903/82103748-a3a16b00-96ea-11ea-80ac-3a5a2ca6b4d4.jpg)](https://youtu.be/CQHUWNFfv5M)
 
