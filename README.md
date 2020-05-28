@@ -21,13 +21,13 @@
 
 ## Introdução:
 
-O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
+O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, norteando o desenvolvimento do projeto. Aqui, serão identificados e classificados o objeto, story cards, requisitos, proposta da solução, destacando a usabilidade e mantendo backlog.
 
-A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
+A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business). 
 
 Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências.
 
-A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc.
+A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador e momento futuro para a inserção de novos projetos/contratação de pessoal.
 
 Será utilizado o Java como linguagem de programação.
 
@@ -63,31 +63,32 @@ Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, a
 	- Horas da equipe alocadas por semana;
 	- Horas da equipe alocadas por mês;
 	- Lista tarefa-início-pessoa-duração;
-* Código de Cores: Para melhor usabilidade e distinção das diversas informações, pessoas/dias/semanas/meses poderão sofrer alteração de cor para permitir a identificação instantâneas de sobrecarga e possibilitar mudanças pelo gestor do(s) projeto(s).
-* Deletar Tarefa: Perguntar se tem certeza e confirmar;
+* Código de Cores: Para melhor usabilidade e distinção das diversas informações, pessoas/dias/semanas/meses poderão sofrer alteração de cor para permitir a identificação instantâneas de sobrecarga e possibilitar mudanças pelo gestor do(s) projeto(s);
+* Métricas: Tempo x pessoas/dias/semanas/meses;
+* Deletar Tarefa: Perguntar se tem certeza e confirmar.
 
 ## Especificação de Requisitos:
 ### Funcionais:
 
-* Manipular a GUI na forma de diagrama interativo;
 * Cadastrar tarefas e projetos;
-* Criar interdependência entre tarefas;
 * Cadastrar colaboradores e realizar autenticação dos usuários (administrador,operador,etc);
 * Calcular as horas totais do projeto com base na carga horária das tarefas (tasks);
 * Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto, por dia. por semana, por mês e um "Grand Total";
-* Gerar relatórios por desenvolvedor, por período;
 * Armazenar dados (busca-se autosalvamento e versionamento de arquivo);
 * Dispor da informação sobre prazos reais e líquidos, contemplando calendário com dias úteis, finais de semana, feriados, férias e ausências, entre outros.
+* Criar interdependência entre tarefas;
+* Manipular a GUI na forma de diagrama interativo;
+* Gerar relatórios por desenvolvedor, por período;
 
 |NOME|Cod|Descrição|
 |----|--|----------|
-|Diagrama Interativo|R1|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
-|Cálculo de horas |R2|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
-|Cadastro de Tarefas|R3|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
-|Cadastro de Colaboradores|R4|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
-|Relatórios|R5|Gerar relatórios.|
-|Horas|R6|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
-|Calendário|R7|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, e outras ausências.|
+|Cadastro de Tarefas|R1|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
+|Cadastro de Colaboradores|R2|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
+|Horas|R3|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
+|Cálculo de horas |R4|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
+|Calendário|R5|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, e outras ausências.|
+|Relatórios|R6|Gerar relatórios.|
+|Diagrama Interativo|R7|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
 |Importação|R8| O sistema poderá importar planilha (desnecessária a sua exportação).
 
 **DIAGRAMA DE CASO DE USO**
@@ -95,14 +96,13 @@ Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, a
 
 ### Não funcionais:
 
+* Intuitivo;
+* Visual;
+* Colorido;
+* Gerencialmente Inteligível;
 * Sistema leve;
 * Baixa manutenção;
 * Portabilidade: o sistema deverá rodar em qualquer plataforma;
-* Intuitivo;
-* Colorido;
-* Visual;
-* Gerencialmente Inteligível;
-
 
 ## Proposta
 
@@ -130,7 +130,7 @@ O sistema possuirá uma interface intuitiva com menus e botões de ações de f�
 
 * Controle do usuário e liberdade
 
-Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois conseguirá identificar claramente as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em identificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário (campo de senha é CASE SENSITIVE), almeja-se que tenha autosalvamento, controle de versões, permitindo simulações (usabilidade do sistema).
+Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando o número de cliques e de erros, pois conseguirá identificar claramente as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em identificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário (campo de senha é CASE SENSITIVE), almeja-se que tenha autosalvamento, controle de versões, permitindo simulações (usabilidade do sistema).
 
 * Design estético e minimalista
 
@@ -138,7 +138,7 @@ Com design intuitivo o sistema exibirá informações precisas e de fácil inter
 
 * Ajuda e documentação
 
-A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, o sistema será de fácil usabilidade sendo opcional a leitura de manual e documentação. Para os usuários que precisam desse documento na própria plataforma conterá um arquivo digital para ser baixado com as instruções de utilização objetiva.
+A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, o sistema será de fácil usabilidade sendo opcional a leitura de manual e documentação. Para os usuários que precisam desse documento na própria plataforma poderá conter um arquivo digital para ser baixado com as instruções de utilização objetiva.
 
 
 ## Instalação:
@@ -182,14 +182,17 @@ BANCO DE DADOS - em desenvolvimento;
 ## Entrega 04 (12  de junho de 2020).
 - Quadrante 1 de 4 da Tela (GANTT-NECTO);
 - BANCO DE DADOS;
+- Tela de Login;
 
 ## Entrega 05 (26  de junho de 2020).
 - Quadrante 4 de 4 da Tela (GANTT-NECTO);
 - MODEL;
+- Exclusão de Tarefas, Projetos, Usuários;
 
 ## Entrega 06 (10  de juLho de 2020).
 - Interações entre as 4 camadas;
 - Uniformização de variáveis;
+- Relatórios;
 
 ## Entrega 07 (24  de juLho de 2020).
 - Interações entre as 4 camadas;
