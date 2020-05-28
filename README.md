@@ -138,14 +138,41 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 - Scrum
 - Versionamento com base em releases
 
-## Entrega 01 - 18  de março de 2020.
-
-## Entrega 02 - 15  de maio de 2020.
-![200513-Segunda-Entrega-PI-Pydevs-v2.pdf](https://github.com/ODAGAMMXIX/GANTT/files/4692611/200513-Segunda-Entrega-PI-Pydevs-v2.pdf) <img align="left" width="100" height="100" src=https://github.com/ODAGAMMXIX/GANTT/files/4692611/200513-Segunda-Entrega-PI-Pydevs-v2.pdf">
-
+## Entrega 01 (18  de março de 2020).
+- MOCKUP da aplicação, a partir das solicitações do cliente: vide arquivo "200318-Primeira-Entrega-PI-Pydevs(PDF-version-PRESS-F11).pdf"
+## Entrega 02 (15  de maio de 2020).
 ![Quadrante 2 de 4 da Tela (GANTT-NECTO)](https://user-images.githubusercontent.com/54047352/83085242-bfe5c600-a061-11ea-8aaf-9350cc7e52bd.png) <img align="left" width="100" height="100" src=https://user-images.githubusercontent.com/54047352/83085242-bfe5c600-a061-11ea-8aaf-9350cc7e52bd.png">
 
-## Entrega 03 - 29  de maio de 2020.
+## Entrega 03 (29  de maio de 2020).
+Seguindo as camadas do desenvolvimento, temos:
 
-## Entrega 04 - 12  de junho de 2020.
+VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
+|Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
+|Quadrante 2 de 4 da Tela (GANTT-NECTO) - Entregue em 15/05/2020;
+|Quadrante 3 de 4 da Tela (GANTT-NECTO) - Entrega hoje, em 29/05/2020, mostra: Tarefa, Data de Início, Duração, __(Carol)__;
+|Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
+|
+CONTROLER -  Entrega hoje, em 29/05/2020 
+|
+|(a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis);
+||
+MODEL - em desenvolvimento;
+||
+|
+BANCO DE DADOS - em desenvolvimento;
+ 
+## Entrega 04 (12  de junho de 2020).
+- Quadrante 1 de 4 da Tela (GANTT-NECTO);
+- BANCO DE DADOS;
 
+## Entrega 05 (26  de junho de 2020).
+- Quadrante 4 de 4 da Tela (GANTT-NECTO);
+- MODEL;
+
+## Entrega 06 (10  de juLho de 2020).
+- Interações entre as 4 camadas;
+- Uniformização de variáveis;
+
+## Entrega 07 (24  de juLho de 2020).
+- Interações entre as 4 camadas;
+- Versionamento ou Usabilidade;
