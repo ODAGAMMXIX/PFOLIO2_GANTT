@@ -137,3 +137,13 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 - PostgreSQL
 - Scrum
 - Versionamento com base em releases
+
+## Entrega 01 - 18  de março de 2020.
+
+## Entrega 02 - 15  de maio de 2020.
+https://github.com/pydevelopers/pydevs/issues/18#issue-626127280
+
+## Entrega 03 - 29  de maio de 2020.
+
+## Entrega 04 - 12  de junho de 2020.
+
