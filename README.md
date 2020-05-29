@@ -67,7 +67,7 @@ Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, a
 * Métricas: Tempo x pessoas/dias/semanas/meses;
 * Deletar Tarefa: Perguntar se tem certeza e confirmar.
 
-## Especificação de Requisitos:
+## Especificação de Requisitos (EM ORDEM DE PRIORIDADE):
 ### Funcionais:
 
 * Cadastrar tarefas e projetos;
@@ -156,6 +156,7 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 - Scrum
 - Versionamento com base em releases
 
+
 ## Entrega 01 (18  de março de 2020).
 - MOCKUP da aplicação, a partir das solicitações do cliente: vide arquivo "200318-Primeira-Entrega-PI-Pydevs(PDF-version-PRESS-F11).pdf"
 
@@ -164,7 +165,7 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 
 [![youtube](https://user-images.githubusercontent.com/54503903/82103748-a3a16b00-96ea-11ea-80ac-3a5a2ca6b4d4.jpg)](https://youtu.be/CQHUWNFfv5M)
 
-## Entrega 03 (29  de maio de 2020).
+## Entrega 03 (29  de maio de 2020) + BACKLOG (COM DATAS E EXPECTATIVA DE ENTREGAS ABAIXO).
 Seguindo as camadas do desenvolvimento, temos:
 
 VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
