@@ -168,20 +168,18 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 ## Entrega 03 (29  de maio de 2020) + BACKLOG (COM DATAS E EXPECTATIVA DE ENTREGAS ABAIXO).
 Seguindo as camadas do desenvolvimento, temos:
 
-VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
-|Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
-|Quadrante 2 de 4 da Tela (GANTT-NECTO) - Entregue em 15/05/2020;
-|Quadrante 3 de 4 da Tela (GANTT-NECTO) - Entrega hoje, em 29/05/2020, mostra: Tarefa, Data de Início, Duração, __(Carol)__;
-|Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
-|
-CONTROLER -  Entrega hoje, em 29/05/2020 
-|
-|(a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis);
-||
-MODEL - em desenvolvimento;
-||
-|
-BANCO DE DADOS - em desenvolvimento;
+i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
+-Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
+-Quadrante 2 de 4 da Tela (GANTT-NECTO) - Entregue em 15/05/2020;
+-Quadrante 3 de 4 da Tela (GANTT-NECTO) - Entrega hoje, em 29/05/2020, mostra: Tarefa, Data de Início, Duração, __(Carol)__;
+-Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
+
+ii) CONTROLER -  em desenvolvimento;
+
+iii) MODEL - Entrega hoje, em 29/05/2020 ;
+(a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis);
+
+iv) BANCO DE DADOS - em desenvolvimento;
  
 ## Entrega 04 (12  de junho de 2020).
 - Quadrante 1 de 4 da Tela (GANTT-NECTO);
