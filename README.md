@@ -184,6 +184,11 @@ iii) MODEL - Entrega hoje, em 29/05/2020 ;
 (a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis);
 
 iv) BANCO DE DADOS - em desenvolvimento;
+
+(CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
+
+[![youtube3](https://user-images.githubusercontent.com/54503903/83316457-39b1b700-a1fc-11ea-86d9-799e3a02ac8b.jpg)](https://youtu.be/qZ07u7T7yQs)
+
  
 ## Entrega 04 (12  de junho de 2020).
 - Quadrante 1 de 4 da Tela (GANTT-NECTO);
