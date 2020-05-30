@@ -170,10 +170,13 @@ Seguindo as camadas do desenvolvimento, temos:
 
 i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
 
-*Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
-*Quadrante 2 de 4 da Tela (GANTT-NECTO) - Entregue em 15/05/2020;
-*Quadrante 3 de 4 da Tela (GANTT-NECTO) - Entrega hoje, em 29/05/2020, mostra: Tarefa, Data de Início, Duração, __(Carol)__;
-*Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
+- Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
+
+- Quadrante 2 de 4 da Tela (GANTT-NECTO) - Entregue em 15/05/2020;
+
+- Quadrante 3 de 4 da Tela (GANTT-NECTO) - Entrega hoje, em 29/05/2020, mostra: Tarefa, Data de Início, PEssoa, Duração;
+
+- Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
 
 ii) CONTROLER -  em desenvolvimento;
 
