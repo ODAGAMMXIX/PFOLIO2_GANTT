@@ -179,6 +179,10 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 - Exclusão de Tarefas, Projetos, Usuários;
 - BANCO DE DADOS;
 
+    (CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
+
+[![youtube4](https://user-images.githubusercontent.com/54503903/84610930-b4343500-ae92-11ea-941a-62815f2a17c4.jpg)](https://youtu.be/ANAW50nCTWo)
+
 Seguindo as camadas do desenvolvimento, temos:
 
 i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
@@ -201,9 +205,7 @@ iii) MODEL - em desenvolvimento;
 
 iv) BANCO DE DADOS - Entrega hoje;
 
-(CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
 
-{...}
 
 ## Entrega 05 (26  de junho de 2020).
 - Quadrante 1 de 4 da Tela (GANTT-NECTO);
