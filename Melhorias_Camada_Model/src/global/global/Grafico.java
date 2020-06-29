@@ -1,7 +1,6 @@
 package global;
 import global.Projeto;
 import global.Tarefa;
-import global.Funcionario;
 import global.TestesProjeto;
 import java.time.LocalDate;
 import java.time.ZoneOffset;
@@ -31,7 +30,7 @@ public class Grafico extends JFrame {
 	      // Create chart
 	      JFreeChart chart = ChartFactory.createGanttChart(
 	            "Nome Projeto", // Chart title
-	            "Tarefas", // X-Axis Label
+	            "Tarefas", // X-Axis Labelcon
 	            "Linha do Tempo", // Y-Axis Label
 	            dataset);
 
