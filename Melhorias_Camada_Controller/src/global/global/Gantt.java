@@ -34,7 +34,7 @@ public class Gantt {
 		System.out.println("Colaborador: "+funcionario2.nomeFuncionario+" criado com sucesso!");
 		Funcionario funcionario3 = new Funcionario ("Caroline");
 		System.out.println("Colaborador: "+funcionario3.nomeFuncionario+" criado com sucesso!");
-		Funcionario funcionario4 = new Funcionario ("Wilson");
+		Funcionario funcionario4 = new Funcionario ("W");
 		System.out.println("Colaborador: "+funcionario4.nomeFuncionario+" criado com sucesso!");
 		System.out.println("");
 		
@@ -76,12 +76,12 @@ public class Gantt {
 		tarefa6.add_dataFimTarefa("20/06/2020");
 		tarefa7.add_dataFimTarefa("26/06/2020");		
 		System.out.println("Tarefa: "+tarefa1.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa1.datafimTarefa);
-		System.out.println("Tarefa: "+tarefa2.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa2.datafimTarefa);
-		System.out.println("Tarefa: "+tarefa3.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa3.datafimTarefa);
-		System.out.println("Tarefa: "+tarefa4.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa4.datafimTarefa);
-		System.out.println("Tarefa: "+tarefa5.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa5.datafimTarefa);
-		System.out.println("Tarefa: "+tarefa6.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa6.datafimTarefa);
-		System.out.println("Tarefa: "+tarefa7.nomeTarefa+" inicio: "+tarefa1.datainicioTarefa+" fim: "+tarefa7.datafimTarefa);
+		System.out.println("Tarefa: "+tarefa2.nomeTarefa+" inicio: "+tarefa2.datainicioTarefa+" fim: "+tarefa2.datafimTarefa);
+		System.out.println("Tarefa: "+tarefa3.nomeTarefa+" inicio: "+tarefa3.datainicioTarefa+" fim: "+tarefa3.datafimTarefa);
+		System.out.println("Tarefa: "+tarefa4.nomeTarefa+" inicio: "+tarefa4.datainicioTarefa+" fim: "+tarefa4.datafimTarefa);
+		System.out.println("Tarefa: "+tarefa5.nomeTarefa+" inicio: "+tarefa5.datainicioTarefa+" fim: "+tarefa5.datafimTarefa);
+		System.out.println("Tarefa: "+tarefa6.nomeTarefa+" inicio: "+tarefa6.datainicioTarefa+" fim: "+tarefa6.datafimTarefa);
+		System.out.println("Tarefa: "+tarefa7.nomeTarefa+" inicio: "+tarefa7.datainicioTarefa+" fim: "+tarefa7.datafimTarefa);
 				
 		
 		//adicionando tarefas ao projeto:
