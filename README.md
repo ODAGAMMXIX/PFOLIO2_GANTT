@@ -180,7 +180,7 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 
 [![youtube4](https://user-images.githubusercontent.com/54503903/84610930-b4343500-ae92-11ea-941a-62815f2a17c4.jpg)](https://youtu.be/ANAW50nCTWo)
 
-## Entrega 05 (26  de junho de 2020).
+## Entrega 05 (28  de junho de 2020).
 - Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade): Entrega Hoje;
 
 - DASHBOARD (4 Quardrantes) - em desenvolvimento (versão 1) Entrega hoje;
@@ -189,9 +189,11 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 
 - MODEL - Entrega Hoje;
 
-iv) BANCO DE DADOS - Novo modelo Conceitual: Entrega Hoje;
+- BANCO DE DADOS - Novo modelo Conceitual: Entrega Hoje;
 
-(CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
+    (CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
+ 
+[![youtube5](https://user-images.githubusercontent.com/54503903/85968826-74924080-b99c-11ea-8d20-e1e285b76dcc.jpg)](https://youtu.be/7RUI-WgrSz8)   
 
 Seguindo as camadas do desenvolvimento, temos:
 
