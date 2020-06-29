@@ -183,9 +183,26 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 
 [![youtube4](https://user-images.githubusercontent.com/54503903/84610930-b4343500-ae92-11ea-941a-62815f2a17c4.jpg)](https://youtu.be/ANAW50nCTWo)
 
+## Entrega 05 (26  de junho de 2020).
+- Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade): Entrega Hoje;
+
+- DASHBOARD (4 Quardrantes) - em desenvolvimento (versão 1) Entrega hoje;
+
+- CONTROLLER: Novas Melhorias: Entrega hoje;
+
+- MODEL - Entrega Hoje;
+
+iv) BANCO DE DADOS - Novo modelo Conceitual: Entrega Hoje;
+
+(CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
+
 Seguindo as camadas do desenvolvimento, temos:
 
 i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
+
+- Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade): Entrega Hoje;
+
+- DASHBOARD (4 Quardrantes) - em desenvolvimento (versão 1) Entrega hoje;
 
 - Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
 
@@ -195,24 +212,20 @@ i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Proje
 
 - Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
 
-- Tela de cadastro com integração ao banco de dados: Entrega hoje;
+- Tela de cadastro com integração ao banco de dados: Entregue 14/06/2020;
 
-- Exclusão de Tarefas, Projetos, Usuários: Entrega hoje;
+- Exclusão de Tarefas, Projetos, Usuários: Entregue 14/06/2020;
 
-ii) CONTROLLER: a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis -  Entregue em 29/05/2020;
+ii) CONTROLLER: Entregue 14/06/2020 (a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis)
+	-  Novas Melhorias: Entrega hoje;
 
-iii) MODEL - em desenvolvimento;
+iii) MODEL - Entrega Hoje;
 
-iv) BANCO DE DADOS - Entrega hoje;
-
-
-
-## Entrega 05 (26  de junho de 2020).
-- Quadrante 1 de 4 da Tela (GANTT-NECTO);
-- Quadrante 4 de 4 da Tela (GANTT-NECTO);
-- MODEL;
+iv) BANCO DE DADOS - Entregue 14/06/2020;
+		   - Novo modelo Conceitual: Entrega Hoje;
 
 ## Entrega 06 (10  de juLho de 2020).
+- DASHBOARD com 4 Quadrantes;
 - Interações entre as 4 camadas;
 - Uniformização de variáveis;
 - Relatórios;
