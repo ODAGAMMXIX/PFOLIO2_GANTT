@@ -17,8 +17,6 @@
 * Wilson Amore Vieira Filho RA: 1460281923041
 	
 
-{Incluir Vídeo da Entrega 03}
-
 ## Introdução:
 
 O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, norteando o desenvolvimento do projeto. Aqui, serão identificados e classificados o objeto, story cards, requisitos, proposta da solução, destacando a usabilidade e mantendo backlog.
