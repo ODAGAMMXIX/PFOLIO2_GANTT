@@ -159,7 +159,6 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 - MOCKUP da aplicação, a partir das solicitações do cliente: vide arquivo "200318-Primeira-Entrega-PI-Pydevs(PDF-version-PRESS-F11).pdf"
 
 ## Entrega 02 (15  de maio de 2020).
-![Quadrante 2 de 4 da Tela (GANTT-NECTO)](https://user-images.githubusercontent.com/54047352/83085242-bfe5c600-a061-11ea-8aaf-9350cc7e52bd.png) <img align="left" width="100" height="100" src=https://user-images.githubusercontent.com/54047352/83085242-bfe5c600-a061-11ea-8aaf-9350cc7e52bd.png">
 
 [![youtube](https://user-images.githubusercontent.com/54503903/82103748-a3a16b00-96ea-11ea-80ac-3a5a2ca6b4d4.jpg)](https://youtu.be/CQHUWNFfv5M)
 
