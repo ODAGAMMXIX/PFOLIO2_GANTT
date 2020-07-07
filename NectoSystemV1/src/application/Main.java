@@ -17,13 +17,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-
 			
-			//comando para abrir o grafico:
-			ShowGantt teste = new ShowGantt();
-			teste.mostrarGrafico();						
-			
-			//abre a tela CRUD de tarefas:
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/MainView.fxml"));
 			ScrollPane scrollPane = loader.load();			
 			scrollPane.setFitToHeight(true);

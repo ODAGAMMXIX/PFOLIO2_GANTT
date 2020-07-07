@@ -1,20 +1,20 @@
 package gui;
 
 import java.io.IOException;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
+import application.ShowGantt;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.function.Consumer;
-
 import application.Main;
 import gui.util.Alerts;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.MenuItem;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 import model.services.ProjetosService;
 
@@ -37,7 +37,9 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMenuItemAboutAction() {
-		loadView("/gui/About.fxml", x -> {});
+//		loadView("/gui/About.fxml", x -> {});
+		ShowGantt teste = new ShowGantt();
+		teste.mostrarGrafico();
 		
 	}
 	

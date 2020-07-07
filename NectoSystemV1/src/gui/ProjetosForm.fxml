@@ -38,6 +38,7 @@
             <TextField fx:id="txtStarttime" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="txtOwner" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="txtDuration" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <children>
                   <Button fx:id="btSave" mnemonicParsing="false" onAction="#onBtSaveAction" text="Save" />

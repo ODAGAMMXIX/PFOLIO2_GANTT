@@ -54,6 +54,8 @@ public class ProjetosFormController implements Initializable {
 	@FXML
 	private Button btCancel;
 	
+
+	
 	public void setProjetos(Projetos entity) {
 		this.entity = entity;
 	}
@@ -102,20 +104,14 @@ public class ProjetosFormController implements Initializable {
 
 
 	private Projetos getFormData() {
-		Projetos obj = new Projetos ();
+		Projetos obj = new Projetos ();					
 		
-		
-		
-		
-		obj.setId(Utils.tryParseToInt(txtId.getText()));	
-			
+		obj.setId(Utils.tryParseToInt(txtId.getText()));		
 		obj.setTaskname(txtTaskname.getText());
 		obj.setStarttime(txtStarttime.getText());
 		obj.setOwner(txtOwner.getText());
-		obj.setDuration(txtDuration.getText());
-		
-	
-		
+		obj.setDuration(txtDuration.getText());		
+			
 		return obj;
 	}
 	
@@ -125,6 +121,7 @@ public class ProjetosFormController implements Initializable {
 		Utils.currentStage(event).close();
 	
 	}
+
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		initializeNodes();

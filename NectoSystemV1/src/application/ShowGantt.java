@@ -15,7 +15,7 @@ import model.entities.Projetos;
 public class ShowGantt {
 
 	
-		void mostrarGrafico() {
+		public void mostrarGrafico() {
 		ProjetosDaoJDBC acess = new ProjetosDaoJDBC(DB.getConnection()); //conecta o banco
 		List<Projetos> tarefas = acess.findAll(); //lista os dados da tabela
 		GraphGantt gantt = new GraphGantt("NECTO",tarefas);	
