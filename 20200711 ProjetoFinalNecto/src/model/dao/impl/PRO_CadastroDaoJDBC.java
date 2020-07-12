@@ -77,7 +77,7 @@ public class PRO_CadastroDaoJDBC implements PRO_CadastroDao {
 					obj.setPro_Dep_Posterior(rs.getString("pro_Dep_Posterior"));
 					obj.setPro_Cliente(rs.getString("pro_Cliente"));
 					list.add(obj);
-					System.out.println(obj.getPro_Titulo());
+					
 
 				}
 
@@ -147,9 +147,7 @@ public class PRO_CadastroDaoJDBC implements PRO_CadastroDao {
 			st.setString(5, obj.getPro_Progresso());
 			st.setString(6, obj.getPro_Dep_Posterior());
 			st.setString(7, obj.getPro_Cliente());
-
 			st.setInt(8, obj.getId());
-
 			st.executeUpdate();
 		} catch (SQLException e) {
 			throw new DbException(e.getMessage());
@@ -157,7 +155,36 @@ public class PRO_CadastroDaoJDBC implements PRO_CadastroDao {
 			DB.closeStatement(st);
 		}
 	}
+//=========================================================================================
+	
+	@Override
+	public void updateHorasProjeto(PRO_Cadastro obj) {
+		PreparedStatement st = null;
+		try {
+			st = conn.prepareStatement(
+					"UPDATE pro_cadastro "
+					+ "SET pro_Horas = ? "
+					+ "WHERE Id = ?");
 
+			
+			st.setString(1, obj.getPro_Horas());			
+			st.setInt(2, obj.getId());
+			st.executeUpdate();
+		} catch (SQLException e) {
+			throw new DbException(e.getMessage());
+		} finally {
+			DB.closeStatement(st);
+		}
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+//=========================================================================================
 	@Override
 
 	public void deleteById(Integer id) {

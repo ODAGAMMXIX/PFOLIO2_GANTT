@@ -98,11 +98,11 @@ public class GraphGantt {
 			SimpleDateFormat endDate = new SimpleDateFormat("dd/MM/yyyy");
 			String endTask = endDate.format(event.getActualEndDate().getTime());
 //http://thiagocolen.blogspot.com/2016/01/java-diferenca-de-dias-entre-duas-datas.html
-//https://www.educative.io/edpresso/how-to-convert-a-double-to-int-in-java
-			System.out.println();
+//https://www.educative.io/edpresso/how-to-convert-a-double-to-int-in-java			
 			long diferenca = event.getActualEndDate().getTime().getTime() 
 			  			   - event.getActualStartDate().getTime().getTime();
-			String days = Long.toString(TimeUnit.MILLISECONDS.toDays(diferenca)).substring(0,1);	
+//			System.out.println(TimeUnit.MILLISECONDS.toDays(diferenca));
+			String days = Long.toString(TimeUnit.MILLISECONDS.toDays(diferenca));	
 			tarefaAtualizada.setId(id);
 			tarefaAtualizada.setTaskname(nameTask);
 			tarefaAtualizada.setStarttime(startTask);
@@ -111,6 +111,11 @@ public class GraphGantt {
 //conecta o banco e atualiza as tarefas:
 			TarefaDaoJDBC acess = new TarefaDaoJDBC(DB.getConnection()); 
 			acess.updateGantt(tarefaAtualizada);
+//atualizar coluna de horas projeto e usuario:			
+			
+			Dashboard atualizar = new Dashboard();
+			atualizar.refreshDashboard();			
+//          				
 			}
 		} 									
 		else if (saveChanges == JOptionPane.NO_OPTION) {		   

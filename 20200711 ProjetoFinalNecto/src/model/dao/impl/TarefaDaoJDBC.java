@@ -168,9 +168,7 @@ public class TarefaDaoJDBC implements TarefaDao {
 			
 			st.setString(1, obj.getStarttime());			
 			st.setString(2, obj.getDuration());	
-
-			st.setInt(3, obj.getId());
-			
+			st.setInt(3, obj.getId());			
 			st.executeUpdate();
 		}
 		catch (SQLException e) {

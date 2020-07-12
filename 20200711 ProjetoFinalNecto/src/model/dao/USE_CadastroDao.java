@@ -11,6 +11,7 @@ public interface USE_CadastroDao {
 	void deleteById(Integer id);
 	USE_Cadastro findById(Integer id);
 	List<USE_Cadastro> findAll();
+	void updateHorasUsuario(USE_Cadastro obj);
 	
 
 }

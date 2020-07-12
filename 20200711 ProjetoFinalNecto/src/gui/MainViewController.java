@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.function.Consumer;
 
+import application.Dashboard;
 import application.Main;
 import application.ShowGantt;
 import gui.util.Alerts;
@@ -51,6 +52,8 @@ public class MainViewController implements Initializable {
 		@FXML
 		public void onMenuItemProjetosAction() {
 			loadView("/gui/PRO_CadastroList.fxml", (PRO_CadastroListController controller) -> {
+				Dashboard atualizar = new Dashboard();
+				atualizar.refreshDashboard();
 				controller.setPRO_CadastroService(new PRO_CadastroService());
 				controller.updateTableView();
 			});
@@ -59,6 +62,8 @@ public class MainViewController implements Initializable {
 		@FXML
 		public void onMenuItemFuncionariosAction() {
 			loadView("/gui/USE_CadastroList.fxml", (USE_CadastroListController controller) -> {
+				Dashboard atualizar = new Dashboard();
+				atualizar.refreshDashboard();
 				controller.setUSE_CadastroService(new USE_CadastroService());
 				controller.updateTableView();
 			});

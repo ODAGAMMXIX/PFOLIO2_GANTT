@@ -104,7 +104,31 @@ public class USE_CadastroDaoJDBC implements USE_CadastroDao {
 	
 	
 		}
+//============================================================================
+	@Override
+	public void updateHorasUsuario(USE_Cadastro obj) {
+		PreparedStatement st = null;
+		try {
+			st = conn.prepareStatement(
+					"UPDATE user "
+					+ "SET  use_horas_usuario = ?"
+					+ "WHERE Id = ?");			
+			
+			st.setString(1, obj.getUse_horas_usuario());
+			st.setInt(2, obj.getId());			
+			st.executeUpdate();
+		}
+		catch (SQLException e) {
+			throw new DbException(e.getMessage());
+		}
+		finally {
+			DB.closeStatement(st);
+		}
+	}
 	
+	
+	
+//============================================================================	
 		@Override
 		public void update(USE_Cadastro obj) {
 			PreparedStatement st = null;

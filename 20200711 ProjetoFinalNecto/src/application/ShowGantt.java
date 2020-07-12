@@ -21,8 +21,7 @@ public class ShowGantt {
 		PRO_CadastroDaoJDBC acessProject = new PRO_CadastroDaoJDBC(DB.getConnection());
 		TarefaDaoJDBC acess = new TarefaDaoJDBC(DB.getConnection()); //conecta o banco
 		List<PRO_Cadastro> projetos = acessProject.findAll();
-		List<Tarefa> tarefas = acess.findAll(); //lista os dados da tabela
-		System.out.println(projetos.size());
+		List<Tarefa> tarefas = acess.findAll(); //lista os dados da tabela		
 		GraphGantt gantt = new GraphGantt(projetos,tarefas);	
 	}
 

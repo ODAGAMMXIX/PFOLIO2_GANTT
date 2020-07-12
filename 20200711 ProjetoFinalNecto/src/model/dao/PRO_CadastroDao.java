@@ -12,6 +12,7 @@ public interface PRO_CadastroDao {
 	void deleteById(Integer id);
 	PRO_Cadastro findById(Integer id);
 	List<PRO_Cadastro>findAll();
+	void updateHorasProjeto(PRO_Cadastro obj);
 	
 	
 }	
