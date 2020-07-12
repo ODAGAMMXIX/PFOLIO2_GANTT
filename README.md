@@ -1,4 +1,4 @@
-![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png) <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
+![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png) 
 
 # Projeto Integrador - 2º semestre BD
 ## Disciplinas:
@@ -11,10 +11,10 @@
 
 ## Integrantes:
 
-* Caroline Paz de Sousa RA: 1460281923049
-* Denise de Oliveira Silva RA: 1460281923007
-* Fabio Odaguiri RA: 1460281923008
-* Wilson Amore Vieira Filho RA: 1460281923041
+* Caroline Paz de Sousa RA: 1460281923049  -  https://www.linkedin.com/in/caroline-sousa-53a27972/
+* Denise de Oliveira Silva RA: 1460281923007 - https://www.linkedin.com/in/denise-oliveira-b9157659/
+* Fabio Odaguiri RA: 1460281923008 - https://www.linkedin.com/in/fabioodaguiri/
+* Wilson Amore Vieira Filho RA: 1460281923041 - https://www.linkedin.com/in/wilson-amore-vieira-filho-7a4420183/
 	
 
 ## Introdução:
@@ -32,7 +32,7 @@ Será utilizado o Java como linguagem de programação.
 ## Elicitação, Story Cards e Identificação de Requisitos
 ### Declaração do Problema:
 
-A cliente NECTO busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias, ausências por motivos particulares e de saúde de cada colaborador.
+O cliente busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias, ausências por motivos particulares e de saúde de cada colaborador.
 
 Com base nesse briefing, solicita um programa simples e funcional, de baixa manutenção, para a realização de seu planejamento, especialmente:
 
@@ -48,12 +48,12 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 ## Story Cards:
 * Cadastrar Tarefa: Clicar na tela, abrir caixa de diálogo, digitar nome do projeto e, abrir caixa de diálogo com dropdown list para escolher:
-	- dia inicial;
-	- dia final;
+	- data inicial;
+	- data final;
 	- pessoa;
 	- indicar dependência com outra(s) tarefa(s).
 * Arrastar Tarefa: Ao clicar na tarefa, pode-se aumentar/diminuir o tempo e assistir as alterações dos quadrantes de controle.
-Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, alterar-se-á as informações de:
+* Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, alterar-se-á as informações de:
 	- horas alocadas por pessoa;
 	- horas disponíveis por pessoa;
 	- Porcentagem de ocupação;
@@ -61,7 +61,7 @@ Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, a
 	- Horas da equipe alocadas por semana;
 	- Horas da equipe alocadas por mês;
 	- Lista tarefa-início-pessoa-duração;
-* Código de Cores: Para melhor usabilidade e distinção das diversas informações, pessoas/dias/semanas/meses poderão sofrer alteração de cor para permitir a identificação instantâneas de sobrecarga e possibilitar mudanças pelo gestor do(s) projeto(s);
+
 * Métricas: Tempo x pessoas/dias/semanas/meses;
 * Deletar Tarefa: Perguntar se tem certeza e confirmar.
 
@@ -132,8 +132,7 @@ Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, mi
 
 * Design estético e minimalista
 
-Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras coloridos, ícones familiares. O sistema deve utilizar cores na construção do gráfico para melhor identificação dos projetos/tarefas/pessoas em andamento e identificação de interdependência das atividades.
-
+Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras , ícones familiares. 
 * Ajuda e documentação
 
 A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, o sistema será de fácil usabilidade sendo opcional a leitura de manual e documentação. Para os usuários que precisam desse documento na própria plataforma poderá conter um arquivo digital para ser baixado com as instruções de utilização objetiva.
@@ -141,16 +140,16 @@ A interface será intuitiva para que o usuário tenha uma melhor experiência e 
 
 ## Instalação:
 
-Após os primeiros testes com nosso código, será possível decidir entre hospedagem em um endereço para acesso por meio de um navegador ou, se será necessária a instalação local nos computadores, com arquivo executável.
+Será necessária a instalação local nos computadores, com arquivo executável.
 
-A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
+A princípio, será compatível na plataforma Windows.
 
 ## Tecnologias e Metodologias aplicadas
 
 - Gantt / JFreeCharts
 - Java
 - Docker / DockerCompose
-- PostgreSQL
+- MySQL
 - Scrum
 - Versionamento com base em releases
 
@@ -163,7 +162,7 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 [![youtube](https://user-images.githubusercontent.com/54503903/82103748-a3a16b00-96ea-11ea-80ac-3a5a2ca6b4d4.jpg)](https://youtu.be/CQHUWNFfv5M)
 
 ## Entrega 03 (29  de maio de 2020) + BACKLOG (COM DATAS E EXPECTATIVA DE ENTREGAS ABAIXO).
-- Quadrante 3 de 4 da Tela (GANTT-NECTO) mostra: Tarefa, Data de Início, PEssoa, Duração;
+- Quadrante 3 de 4 da Tela (GANTT-NECTO) mostra: Tarefa, Data de Início, Pessoa, Duração;
 - Camada de Controle (CONTROLLER): a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis;
 - Tela de Login;
 (CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
@@ -181,15 +180,13 @@ A princípio, será compatível nas plataformas Windows, Linux e Mac OS.
 [![youtube4](https://user-images.githubusercontent.com/54503903/84610930-b4343500-ae92-11ea-941a-62815f2a17c4.jpg)](https://youtu.be/ANAW50nCTWo)
 
 ## Entrega 05 (28  de junho de 2020).
-- Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade): Entrega Hoje;
+- Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade)
 
-- DASHBOARD (4 Quardrantes) - em desenvolvimento (versão 1) Entrega hoje;
+- CONTROLLER: Realizado melhorias
 
-- CONTROLLER: Novas Melhorias: Entrega hoje;
+- MODEL 
 
-- MODEL - Entrega Hoje;
-
-- BANCO DE DADOS - Novo modelo Conceitual: Entrega Hoje;
+- BANCO DE DADOS - Novo modelo Conceitual
 
     (CLIQUE NO VIDEO ABAIXO E ASSISTA A APRESENTAÇÃO)
  
@@ -199,36 +196,17 @@ Seguindo as camadas do desenvolvimento, temos:
 
 i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Projeto, Tarefa, Data de Início, Data Final, Pessoa)
 
-- Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade): Entrega Hoje;
+- Nova Biblioteca NEBULA - Interativa (Melhor Usabilidade)
 
-- DASHBOARD (4 Quardrantes) - em desenvolvimento (versão 1) Entrega hoje;
+- Tela de cadastro com integração ao banco de dados
 
-- Quadrante 1 de 4 da Tela (GANTT-NECTO) - em desenvolvimento;
+- Exclusão de Tarefas, Projetos, Usuários
 
-- Quadrante 2 de 4 da Tela (GANTT-NECTO) - Entregue em 15/05/2020;
+ii) CONTROLLER: A partir de dados obtidos da camada VISUAL, são processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis)
 
-- Quadrante 3 de 4 da Tela (GANTT-NECTO) - Entregue em 29/05/2020;
 
-- Quadrante 4 de 4 da Tela (GANTT-NECTO)- em desenvolvimento;
-
-- Tela de cadastro com integração ao banco de dados: Entregue 14/06/2020;
-
-- Exclusão de Tarefas, Projetos, Usuários: Entregue 14/06/2020;
-
-ii) CONTROLLER: Entregue 14/06/2020 (a partir de dados obtidos da camada VISUAL, serão processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis)
-	-  Novas Melhorias: Entrega hoje;
-
-iii) MODEL - Entrega Hoje;
-
-iv) BANCO DE DADOS - Entregue 14/06/2020;
-		   - Novo modelo Conceitual: Entrega Hoje;
-
-## Entrega 06 (10  de juLho de 2020).
-- DASHBOARD com 4 Quadrantes;
+## Entrega Final (14  de juLho de 2020).
+- Versionamento ou Usabilidade;
 - Interações entre as 4 camadas;
 - Uniformização de variáveis;
 - Relatórios;
-
-## Entrega 07 (24  de juLho de 2020).
-- Interações entre as 4 camadas;
-- Versionamento ou Usabilidade;
