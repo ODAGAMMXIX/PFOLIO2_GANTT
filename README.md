@@ -21,11 +21,11 @@
 
 O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, norteando o desenvolvimento do projeto. Aqui, serão identificados e classificados o objeto, story cards, requisitos, proposta da solução, destacando a usabilidade e mantendo backlog.
 
-A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business). 
+A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares. 
 
 Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências.
 
-A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador e momento futuro para a inserção de novos projetos/contratação de pessoal.
+A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, determinação de data de início de novos projetos, carga de trabalho por colaborador e momento futuro para a inserção de novos projetos/contratação de pessoal.
 
 Será utilizado o Java como linguagem de programação.
 
@@ -43,51 +43,42 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Gerenciar a quantidade de tarefas e projetos possíveis com uma determinada equipe;
 * Limitar a quantidade de horas trabalhadas por colaborador a fim de evitar sobrecargas.
 * Permitir a divisão de uma tarefa por dia (um dia = unidade mínima de tempo);
-* Exportar arquivo para envio a terceiros (cliente e outros stakeholders, em PDF ou HTML ou GDOCs);
 * Gerar Relatório;
 
 ## Story Cards:
-* Cadastrar Tarefa: Clicar na tela, abrir caixa de diálogo, digitar nome do projeto e, abrir caixa de diálogo com dropdown list para escolher:
+* Cadastrar/Editar Tarefa: Clicar na tela, abrir caixa de diálogo, digitar nome do projeto e, abrir caixa de diálogo com dropdown list para escolher:
+    - nome da Tarefa
 	- data inicial;
-	- data final;
-	- pessoa;
-	- indicar dependência com outra(s) tarefa(s).
+	- duração;
+	- usuário;
+	- Projeto.
+
 * Arrastar Tarefa: Ao clicar na tarefa, pode-se aumentar/diminuir o tempo e assistir as alterações dos quadrantes de controle.
 * Quadrantes de Controle: Pela manipulação das barras de tarefas sob projetos, alterar-se-á as informações de:
 	- horas alocadas por pessoa;
-	- horas disponíveis por pessoa;
 	- Porcentagem de ocupação;
-	- Horas da equipe alocadas por dia;
-	- Horas da equipe alocadas por semana;
-	- Horas da equipe alocadas por mês;
 	- Lista tarefa-início-pessoa-duração;
-
-* Métricas: Tempo x pessoas/dias/semanas/meses;
 * Deletar Tarefa: Perguntar se tem certeza e confirmar.
 
 ## Especificação de Requisitos (EM ORDEM DE PRIORIDADE):
 ### Funcionais:
 
-* Cadastrar tarefas e projetos;
-* Cadastrar colaboradores e realizar autenticação dos usuários (administrador,operador,etc);
+* Cadastrar Projetos, Tarefas e Colaboradores;
 * Calcular as horas totais do projeto com base na carga horária das tarefas (tasks);
-* Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto, por dia. por semana, por mês e um "Grand Total";
-* Armazenar dados (busca-se autosalvamento e versionamento de arquivo);
-* Dispor da informação sobre prazos reais e líquidos, contemplando calendário com dias úteis, finais de semana, feriados, férias e ausências, entre outros.
-* Criar interdependência entre tarefas;
 * Manipular a GUI na forma de diagrama interativo;
-* Gerar relatórios por desenvolvedor, por período;
+* Armazenar dados.
+
+
+
 
 |NOME|Cod|Descrição|
 |----|--|----------|
 |Cadastro de Tarefas|R1|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
 |Cadastro de Colaboradores|R2|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
-|Horas|R3|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
+|Horas|R3|O sistema deve mostrar a quantidade de horas alocados em cada projeto.|
 |Cálculo de horas |R4|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
-|Calendário|R5|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, e outras ausências.|
-|Relatórios|R6|Gerar relatórios.|
-|Diagrama Interativo|R7|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
-|Importação|R8| O sistema poderá importar planilha (desnecessária a sua exportação).
+|Diagrama Interativo|R5|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
+
 
 **DIAGRAMA DE CASO DE USO**
 ![Diagrama de caso de uso_Atualizado](https://user-images.githubusercontent.com/61089745/81743282-ced05400-9477-11ea-96bb-afa824678ecf.PNG)
@@ -128,31 +119,26 @@ O sistema possuirá uma interface intuitiva com menus e botões de ações de f�
 
 * Controle do usuário e liberdade
 
-Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando o número de cliques e de erros, pois conseguirá identificar claramente as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em identificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário (campo de senha é CASE SENSITIVE), almeja-se que tenha autosalvamento, controle de versões, permitindo simulações (usabilidade do sistema).
+Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando o número de cliques e de erros, pois conseguirá identificar claramente as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em identificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do gráfico de Gantt
 
 * Design estético e minimalista
 
 Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras , ícones familiares. 
-* Ajuda e documentação
-
-A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, o sistema será de fácil usabilidade sendo opcional a leitura de manual e documentação. Para os usuários que precisam desse documento na própria plataforma poderá conter um arquivo digital para ser baixado com as instruções de utilização objetiva.
 
 
 ## Instalação:
 
 Será necessária a instalação local nos computadores, com arquivo executável.
-
 A princípio, será compatível na plataforma Windows.
 
 ## Tecnologias e Metodologias aplicadas
 
-- Gantt / JFreeCharts
+- Gantt / Nebula
+- JavaFx
+- Calendar
 - Java
-- Docker / DockerCompose
 - MySQL
 - Scrum
-- Versionamento com base em releases
-
 
 ## Entrega 01 (18  de março de 2020).
 - MOCKUP da aplicação, a partir das solicitações do cliente: vide arquivo "200318-Primeira-Entrega-PI-Pydevs(PDF-version-PRESS-F11).pdf"
@@ -202,11 +188,9 @@ i) VISUAL (Tela vista pelo usuário - Entrada e Saída de Dados - Entrada: Proje
 
 - Exclusão de Tarefas, Projetos, Usuários
 
-ii) CONTROLLER: A partir de dados obtidos da camada VISUAL, são processados novos dados: Duração, % de ocupação da pessoa + do dia + da semana + mês, horas totais da pessoa, horas disponíveis)
+ii) CONTROLLER: A partir de dados obtidos da camada VISUAL, são processados novos dados: total de horas do projeto, total de horas por colaborador alocado em tarefas.
 
-
-## Entrega Final (14  de juLho de 2020).
-- Versionamento ou Usabilidade;
-- Interações entre as 4 camadas;
-- Uniformização de variáveis;
-- Relatórios;
+## Entrega Final (14  de julho de 2020).
+- Simulações de tempo de tarefas do projeto - Drag and Drop
+- Uniformização de variáveis e banco de dados relacional com 3 tabelas (Projeto, Tarefa e Usuário);
+- Estatísticas relacionando horas/projeto e horas/funcionário de acordo com as tarefas criadas;
