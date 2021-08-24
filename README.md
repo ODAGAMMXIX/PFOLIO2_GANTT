@@ -7,6 +7,17 @@
 * Arquitetura de Banco de Dados - Prof Emanuel Mineda
 
 
+### Resumo do Projeto 
+
+### Tecnologias adotadas na solução 
+
+### Contribuições individuais/pessoais 
+
+### Aprendizados Efetivos 
+
+### Contribuições individuais/pessoais. 
+
+
 ## Integrantes:
  
   * Caroline Paz de Sousa RA: 1460281923049
