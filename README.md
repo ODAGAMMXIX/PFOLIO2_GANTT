@@ -9,13 +9,24 @@
 
 ### Resumo do Projeto 
 
+{GENÉRICO}
+
 ### Tecnologias adotadas na solução 
+
+{GENÉRICO}
+
+## Tecnologias e Metodologias aplicadas
+
+ - Gantt / JFreeCharts
+ - Java
+ - Docker / DockerCompose
+ - PostgreSQL
+ - Scrum
+ - Versionamento com base em releases
 
 ### Contribuições individuais/pessoais 
 
 ### Aprendizados Efetivos 
-
-### Contribuições individuais/pessoais. 
 
 
 ## Integrantes:
@@ -135,11 +146,4 @@ Após os primeiros testes com nosso código, será possível decidir entre hospe
 
 A princípio, será compatível nas plataformas Windows, Linux e Mac OS.  
 
-## Tecnologias e Metodologias aplicadas
 
- - Gantt / JFreeCharts
- - Java
- - Docker / DockerCompose
- - PostgreSQL
- - Scrum
- - Versionamento com base em releases
