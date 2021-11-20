@@ -1,69 +1,27 @@
+# LISTA PORTFÓLIOS
 
-https://github.com/ODAGAMMXIX/PFOLIO1_DANZO
-https://github.com/ODAGAMMXIX/PFOLIO2_GANTT
-https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE
-https://github.com/ODAGAMMXIX/PFOLIO4_JOBNATION
+[PROJECT-SEMESTRE-01-2019.2 - **DANZO - Mapeador de Criminalidade ao Redor da FATEC**](https://github.com/caroolps/Portfolio01) 
 
-SEGUNDO SEMESTRE.
+[PROJECT-SEMESTRE-02-2020.1 - **GANTT CHART**](https://github.com/caroolps/Portfolio02)
+
+[PROJECT-SEMESTRE-03-2020.2 - **CADASTRO POSITIVO**](https://github.com/caroolps/Portfolio03) 
+
 
 ![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
 
+# PROJETO INTEGRADOR 2020.1 - FATEC & NECTO - GANTT CHART
 
-- LIB ECLIPSE FOUNDATION;
-- TRABALHAMOS COM EVENTOS;
-- 
+### I- RESUMO DO PROJETO
 
-
-# Projeto Integrador - 2º semestre BD
-## Disciplinas:
-* Engenharia de Software - Prof Giuliano Bertotti
-* Lab II - Prof Adriana Jacinto
-* Arquitetura de Banco de Dados - Prof Emanuel Mineda
-
-
-### Resumo do Projeto 
-
-{GENÉRICO}
-
-### Tecnologias adotadas na solução 
-
-{GENÉRICO}
-
-## Tecnologias e Metodologias aplicadas
-
- - Gantt / JFreeCharts
- - Java
- - Docker / DockerCompose
- - PostgreSQL
- - Scrum
- - Versionamento com base em releases
-
-### Contribuições individuais/pessoais 
-
-### Aprendizados Efetivos 
-
-
-## Integrantes:
+Neste segundo Projeto Integrador, a FATEC trouxe o primeiro Cliente "NECTO" para que pudéssemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. Este documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
  
-  * Caroline Paz de Sousa RA: 1460281923049
-  * Denise de Oliveira Silva RA: 1460281923007
-  * Fabio Odaguiri RA: 1460281923008
-  * Wilson Amore Vieira Filho RA: 1460281923041
-
-## Introdução:
-
-  O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
- 
- A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
+A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
 Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências. 
 
-A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc.
+A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc. Será utilizado o Java como linguagem de programação.
 
-Será utilizado o Java como linguagem de programação.
-
-## Elicitação e Identificação de Requisitos
- ### Declaração do Problema:
+ ### Descrição:
  
 A cliente NECTO busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias,  ausências por motivos particulares e de saúde de cada colaborador.
 
@@ -80,84 +38,142 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Gerar Relatório;
 
 
-## Especificação de Requisitos:
- ### Funcionais:
-
-* Manipular a GUI na forma de diagrama interativo;
-* Cadastrar tarefas e projetos;
-* Criar interdependência entre tarefas;
-* Cadastrar colaboradores e realizar autenticação dos usuários (administrador,operador,etc);
-* Calcular as horas totais do projeto com base na carga horária das tarefas (tasks);
-* Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto, por dia. por semana, por mês e um "Grand Total";
-* Gerar relatórios por desenvolvedor, por período;
-* Armazenar dados (busca-se autosalvamento e versionamento de arquivo);
-* Dispor da informação sobre prazos reais e líquidos, contemplando calendário com dias úteis, finais de semana, feriados, férias e ausências, entre outros.
-
-|NOME|Cod|Descrição|
-|----|--|----------|
-|Diagrama Interativo|R1|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
-|Cálculo de horas |R2|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
-|Cadastro de Tarefas|R3|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
-|Cadastro de Colaboradores|R4|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
-|Relatórios|R5|Gerar relatórios.|
-|Horas|R6|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
-|Calendário|R7|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, e outras ausências.|
-|Importação|R8| O sistema poderá importar planilha (desnecessária a sua exportação).
-
-**DIAGRAMA DE CASO DE USO**
-![Diagrama de caso de uso_Atualizado](https://user-images.githubusercontent.com/61089745/81743282-ced05400-9477-11ea-96bb-afa824678ecf.PNG)
-
-### Não funcionais:
-
-* Sistema leve;
-* Baixa manutenção;
-* Portabilidade: o  sistema deverá rodar em qualquer plataforma;
-* Intuitivo;
-* Colorido;
-* Visual;
-* Gerencialmente Inteligível;
-
-
-## Proposta
+### Proposta
 
  A seguinte proposta visa entregar um  sistema que gere diagrama interativo (Gráfico de Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
-
- ![gantt4](https://user-images.githubusercontent.com/54503903/81460735-9da50a80-917d-11ea-8d43-042b45c3241a.gif)
  
+ 1- Estrutura do projeto dividido em camadas:
  
- ![gantt3](https://user-images.githubusercontent.com/54503903/81460795-feccde00-917d-11ea-8d71-061152ad9dd1.gif)
+ ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
+
+2- Modelagem Conceitual para ser implantada no Banco de Dados MYSQL.
+
+![ModelagemConceitual](https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG)
+
+3- Modelagem utilizada no Banco de Dados no MYSQL
+
+![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
+
+4- Tela de Login.
+
+![Login](https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG)
+
+5- Tela de Cadastro do Projeto com possibilidade de editar, excluir e cadastrar um novo projeto conectado ao banco de dados.
+
+![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
+
+6- Tela de Cadastro do Funcionário com possibilidade de editar, excluir e cadastrar um novo funcionário conectado ao banco de dados.
+
+![CadastroFuncionarios](https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG)
+
+7- Tela de Cadastro da Tarefa com possibilidade de editar, excluir e cadastrar uma nova tarefa conectado ao banco de dados.
+
+![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
+
+8- Gráfico de Gantt interativo sendo exibido conforme o projeto selecionado e apresentando cada tarefa com a data de início e final e suas dependências. Seu atrativo é a interação do usuário por meio de arrastar e soltar e redimensionar as tarefas.
+
+![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
+
+### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
+
+Para conciliar o aprendizado com as matérias lecionadas na FATEC, escolhemos a linguagem Java para desenvolver o backend e o Banco de Dados MySQL.
+
+Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fóruns virtuais especializados para implementar blocos de códigos com propósito específico.
+
+As bibliotecas e tecnologias utilizadas foram:
+
+
+- JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop em java, usamos essa tecnologia para desenvolver o front-end do projeto. Por termos pouco conhecimento em JAVA e o medo de não consegui integrar o back-end com o um front-end web, após pesquisas e decisão da maioria do grupo optamos em desenvolver nosso front através dessa ferramenta por acharmos ser mais fácil o aprendizado.
+
+- Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência. Essa foi a segunda biblioteca que testamos e deu certo. Mas primeiramente tentamos implementar JFreeCharts porém não obtemos sucesso. 
+
+![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
+
+- Calendar: Essa biblioteca pode produzir os valores de todos os campos de calendário necessários para implementar a formatação de data e hora, para uma determinada língua e estilo de calendário. Usamos juntamente com o Gantt para mostrarmos a data de início e final de cada tarefa e dependência no gráfico de Gantt.
+
+![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
+
+![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
+
+- Java: É uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
+
+- Eclipse: Eclipse é uma IDE para desenvolvimento Java.
+
+- MySQL: É um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java.
+
+- Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
+
+
+### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
+
+No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribuí com o projeto criando as principais camadas do backend como:
+- Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
+
+![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
+
+- Controller: Criei as classes controller do Projeto, Tarefa e Cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
+
+![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
+
+- Service: Criei as classes Tarefa Service e Cadastro Service definindo seus métodos na interface DAO.
+
+![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
+
  
- 
- ![gantt5](https://user-images.githubusercontent.com/54503903/81517212-89454700-9310-11ea-84f5-e20f23d8fb15.gif)
+- Service implements: Criei as classes Tarefa e Cadastro e implementei os métodos definidos no Service com inteface DAO usando o JDBC.
+
+Java Database Connectivity (JDBC) é um conjunto de classes e interfaces escritas em Java que fazem o envio de instruções SQL para qualquer banco de dados relacional; 
+
+![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
 
 
-### Visão:
- Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
+- Classes DAO para conexão com o Banco de Dados: Criei as classes Tarefas e Cadastros para passar os métodos insert, delete, update e lista nas classes.
 
-##  Usabilidade:
- **HEURISTICAS**
- 
-* Correspondência entre o sistema e o mundo real  
-
-O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando um nomenclatura familiar aos seus usuários. As ações tais quais exclusão ou criação de nova tarefa/projeto serão realizadas por meio de botões/opções de menu sinalizados por "deletar" ou simplesmente "X", tanto quanto "adicionar" ou "+". O calendário de acompanhamento de atividades do projeto será em português. Busca-se uma interface clique-e-arraste, induzindo os caminhos para que a utilização seja fluída.
-
-* Controle do usuário e liberdade  
-
-Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois conseguirá identificar claramente  as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em indentificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário (campo de senha é CASE SENSITIVE), almeja-se que tenha autosalvamento, controle de versões, permitindo simulações (usabilidade do sistema). 
-
-* Design estético e minimalista  
-
-Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras coloridos, ícones familiares. O sistema deve utilizar cores na construção do gráfico para melhor identificação dos projetos/tarefas/pessoas em andamento e identificação de interdependência das atividades.
-
-* Ajuda e documentação  
-
-A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, o sistema será de fácil usabilidade sendo opcional a leitura de manual e documentação. Para os usuários que precisam desse documento na própria plataforma conterá um arquivo digital para ser baixado com as instruções de utilização objetiva.
+![DAO](https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG)
 
 
-## Instalação:
+JAVAFX: Desenhei as telas para exibição do cadastro, edição e deleção da classe Tarefa, Projeto e Funcionário.
 
-Após os primeiros testes com nosso código, será possível decidir entre hospedagem em um endereço para acesso por meio de um navegador ou, se será necessária a instalação local nos computadores, com arquivo executável.
+![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
 
-A princípio, será compatível nas plataformas Windows, Linux e Mac OS.  
+MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o aprendizado da matéria Arquitetura e Modelagem de Banco de Dados e aplicarmos em nosso projeto. Eu contribuí criando as tabelas Funcionário, Tarefa e Projetos, passando seus atributos e dimensões.
+
+![image](https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png)
 
 
+
+### IIII - APRENDIZADOS EFETIVOS
+
+Através do API, consegui programar pela primeira vez utilizando JAVA.
+
+- JAVA: Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.
+
+Através dessa linguagem aprendi sobre as principais camadas para construir uma aplicação como: Entidade, Service, Service implements, DAO e Controller. Uma estrutura que pode ser aplicada em qualquer projeto e inclusive estamos usando até os dias atuais. 
+
+![image](https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png)
+
+
+No API anterior utilizamos o front-end web para integrar com a nossa aplicação em Python. Nesse novo projeto pude obter novo conhecimento e a vivência de realizar um projeto em desktop, com o desafio em realizar o front-end usando a ferramenta JavaFX. Para quem não conhecia nada sobre o mundo de tecnologia, juntamente com a FATEC pude aprender essas duas formas de aplicação.
+
+![FX](https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG)
+
+
+Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos como criar uma Database, Tabelas utilizando o método CRUD (Create, Read, Update e Delete) é uma sigla utilizada para se referir às quatro operações básicas realizadas em banco de dados relacionais que são consulta, inclusão, alteração e exclusão dos registros. É um conhecimento básico que todo programador deve saber e com esses comandos é possível replicar em outros bancos de dados. Segue explanação de alguns comandos:
+
+- O comando INSERT é usado para inserir dados em uma tabela do banco;
+
+- O comando UPDATE é o responsável por fazer edições em registros que já constam no banco. Essa instrução é muito importante já que ela permite corrigir ou complementar os dados, garantindo que o banco tenha sempre informações atualizadas;
+
+- O comando DELETE é utilizado para excluir informações da nossa base de dados;
+
+- O comando SELECT é um dos comandos SQL mais importantes, pois com ele podemos elaborar diversas consultas aos registros da nossa base de dados;
+
+- O comando CREATE é usado sempre que precisamos criar novos objetos na base de dados;
+
+- O comando ALTER é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
+
+Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
+
+- Conhecimento referente a IDE Eclipse.
+
+E no final do projeto, com um semestre conturbado de incertezas e pandemia aprendemos mais sobre o soft skill, sabendo trabalhar em grupo, lidar melhor com os colegas e respeitar as limitações de cada um. Tivemos dois integrantes da equipe que deixaram o grupo por questões de saúde e consequentimente nos redobramos para entregar as sprints. Além desse desafio foi nosso primeiro contato com o cliente externo e conseguimos aperfeiçoar a comunicação, entendimento, criação de requisitos, definições de prioridade e como elaborar uma boa apresentação.
