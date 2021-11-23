@@ -23,17 +23,11 @@ Programa simples e funcional, de baixa manutenção para:
 * Equilibrar a **relação custo x receita** dos projetos;
 * Obter **previsibilidade de faturamento** e de ações comerciais;
 * Gerenciar **tarefas e projetos possíveis**  por equipe;
-* **Limitar a quantidade de horas trabalhadas** por colaborador;
 * Permitir **um dia = unidade mínima de tempo**;
-* **Exportar arquivo**;
-* Gerar Relatório;
+
 
 **ARQUITETURA**
 
-![](/imgs/ENTREGA-FINAL-SIMULACAO-APLICACAO.mp4)
-
-
- 
 **1- Camadas:**
  
  ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
@@ -102,7 +96,7 @@ Programa simples e funcional, de baixa manutenção para:
 #
 - Bibliotecas: 
 #
---***Util***: ______-.
+--***Util***: [*"Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array)"*](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html).
 
 
 --***Calendar***: produz valores típicos de calendário, com formatação de data e hora e dependência no gráfico de Gantt.
@@ -186,7 +180,7 @@ TABELA USUÁRIO
 
 - Aplicação desktop;
 - administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.)
-![2](imgs/MicrosoftTeams-image%20(5).png)
+![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
 - GitHub;
 
 - ênfase em ***soft skills*** com o início da Pandemia do COVID-19 com imersão técnica durante o isolamento social.
