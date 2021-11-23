@@ -1,4 +1,28 @@
+
 # PORTFOLIO
+
+
+
+https://github.com/ODAGAMMXIX/PFOLIO1_DANZO
+https://github.com/ODAGAMMXIX/PFOLIO2_GANTT
+https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE
+https://github.com/ODAGAMMXIX/PFOLIO4_JOBNATION
+
+SEGUNDO SEMESTRE.
+
+![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
+
+
+- LIB ECLIPSE FOUNDATION;
+- TRABALHAMOS COM EVENTOS;
+- 
+
+
+# Projeto Integrador - 2º semestre BD
+## Disciplinas:
+* Engenharia de Software - Prof Giuliano Bertotti
+* Lab II - Prof Adriana Jacinto
+* Arquitetura de Banco de Dados - Prof Emanuel Mineda
 
 
 [PROJECT-SEMESTRE-01-2019.2 - *Python Web Scrapper - Public Safety Monitor*](https://github.com/ODAGAMMXIX/PFOLIO1_DANZO) 
@@ -7,6 +31,35 @@
 
 [PROJECT-SEMESTRE-03-2020.2 - *Java Web App - Benefits According Credit Score*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE) 
 
+
+### Resumo do Projeto 
+
+{GENÉRICO}
+
+### Tecnologias adotadas na solução 
+
+{GENÉRICO}
+
+## Tecnologias e Metodologias aplicadas
+
+ - Gantt / JFreeCharts
+ - Java
+ - Docker / DockerCompose
+ - PostgreSQL
+ - Scrum
+ - Versionamento com base em releases
+
+### Contribuições individuais/pessoais 
+
+### Aprendizados Efetivos 
+
+
+## Integrantes:
+ 
+  * Caroline Paz de Sousa RA: 1460281923049
+  * Denise de Oliveira Silva RA: 1460281923007
+  * Fabio Odaguiri RA: 1460281923008
+  * Wilson Amore Vieira Filho RA: 1460281923041
 
 ![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
 
@@ -175,6 +228,8 @@ Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos
 
 Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
 
+
 - Conhecimento referente a IDE Eclipse.
 
 E no final do projeto, com um semestre conturbado de incertezas e pandemia aprendemos mais sobre o soft skill, sabendo trabalhar em grupo, lidar melhor com os colegas e respeitar as limitações de cada um. Tivemos dois integrantes da equipe que deixaram o grupo por questões de saúde e consequentimente nos redobramos para entregar as sprints. Além desse desafio foi nosso primeiro contato com o cliente externo e conseguimos aperfeiçoar a comunicação, entendimento, criação de requisitos, definições de prioridade e como elaborar uma boa apresentação.
+
