@@ -2,7 +2,7 @@
 
 [PROJECT-SEMESTRE-01-2019.2 - *Python WebBot - Scrapping - Public Safety Monitor*](https://github.com/ODAGAMMXIX/PFOLIO1_DANZO) 
 
-[PROJECT-SEMESTRE-02-2020.1 - *Java Stand Alone GANTT Chart tool*](https://github.com/ODAGAMMXIX/PFOLIO2_GANTT)
+###[PROJECT-SEMESTRE-02-2020.1 - *Java Stand Alone GANTT Chart tool*](https://github.com/ODAGAMMXIX/PFOLIO2_GANTT)
 
 [PROJECT-SEMESTRE-03-2020.2 - *Java Web App - Benefits According Credit Score*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE) 
 #
@@ -163,11 +163,15 @@ Foram testadas e abandonadas:
 - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
 TABELA TAREFA
+
 ![2](imgs/MicrosoftTeams-image%20(2).png)
+
 TABELA PROJETO
+
 ![2](imgs/MicrosoftTeams-image%20(3).png)
 
 TABELA USUÁRIO
+
 ![2](imgs/MicrosoftTeams-image%20(4).png)
 
 - Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e vídeos;
