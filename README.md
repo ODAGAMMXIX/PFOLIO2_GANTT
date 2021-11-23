@@ -68,68 +68,58 @@ Programa simples e funcional, de baixa manutenção para:
 
 ### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-- linguagem: Java.
+- linguagem: ***Java*** (métodos getters, setters e o serializable - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs)
 - Bibliotecas: 
---Calendar: produz valorestípicos de calendário, com formatação de data e hora,e dependência no gráfico de Gantt.
+--***Calendar***: produz valorestípicos de calendário, com formatação de data e hora,e dependência no gráfico de Gantt.
 
 ![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
 #
 ![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
--- JavaFx: para aplicações desktop (front-end).
--- Gantt / Nebula: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrsta-redimensiona) e interação de dependência.
 
-- IDE Eclipse.
+-- ***JavaFx***: para aplicações desktop (front-end), com telas para exibição CRUD para classes Tarefa, Projeto e Funcionário.
 
-- SGBD: MySQL.
+![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
 
--  metodologia: Scrum.
-
- - ci: Docker / DockerCompose.
-
-
-
- 
-Foram testadas e abandonadas:
- - SGBD: PostgreSQL
- - Biblioteca Gantt / JFreeCharts.
-
-### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
-
-No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribuí com o projeto criando as principais camadas do backend como:
-- Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
-
+-- ***Nebula***: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrsta-redimensiona) e interação de dependência.
 ![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
 
-- Controller: Criei as classes controller do Projeto, Tarefa e Cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
+- Camada ***Controller***: classes Projeto, Tarefa e Cadastros, com 2 classes controller para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
 
 ![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
 
-- Service: Criei as classes Tarefa Service e Cadastro Service definindo seus métodos na interface DAO.
+- Camada ***Service***: classes Tarefa Service e Cadastro Service com métodos na interface DAO.
 
 ![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
 
- 
-- Service implements: Criei as classes Tarefa e Cadastro e implementei os métodos definidos no Service com inteface DAO usando o JDBC.
+ - Camada ***Service implements***: Criei as classes Tarefa e Cadastro e implementei os métodos definidos no Service com inteface DAO usando o JDBC.
 
-Java Database Connectivity (JDBC) é um conjunto de classes e interfaces escritas em Java que fazem o envio de instruções SQL para qualquer banco de dados relacional; 
+- ***Java Database Connectivity (JDBC)*** conector com instruções SQL par bancos de dados relacionais; 
 
 ![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
 
 
-- Classes DAO para conexão com o Banco de Dados: Criei as classes Tarefas e Cadastros para passar os métodos insert, delete, update e lista nas classes.
+- Classes ***DAO***: para conexão e CRUD com o Banco de Dados.
 
 ![DAO](https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG)
 
+- IDE Eclipse.
 
-JAVAFX: Desenhei as telas para exibição do cadastro, edição e deleção da classe Tarefa, Projeto e Funcionário.
-
-![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
-
-MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o aprendizado da matéria Arquitetura e Modelagem de Banco de Dados e aplicarmos em nosso projeto. Eu contribuí criando as tabelas Funcionário, Tarefa e Projetos, passando seus atributos e dimensões.
-
+- SGBD: MySQL.
 ![image](https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png)
 
+-  metodologia: Scrum.
 
+- ci: Docker / DockerCompose.
+
+Foram testadas e abandonadas:
+- SGBD: PostgreSQL.
+- Biblioteca Gantt / JFreeCharts.
+
+### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
+
+- Atuei como agende de pesquisa e desenvolvimeto (*R&D*) e segundo Scrum Master e segudo Product Owner.
+- Descobri a biblioteca ***Nebula*** e eninei os colegas a integrá-la ao código.
+- Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS, com as animações aqui apresentadas;
 
 ### IIII - APRENDIZADOS EFETIVOS
 
