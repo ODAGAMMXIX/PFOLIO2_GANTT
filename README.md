@@ -6,7 +6,7 @@
 
 [PROJECT-SEMESTRE-03-2020.2 - *Java Web App - Benefits According Credit Score*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE) 
 #
-#
+##***SECOND PROJECT, SEMESTRE-02-2020.1 - Java Stand Alone GANTT Chart tool***
 #
 [![image](https://user-images.githubusercontent.com/54047352/142968066-33394dd3-a3a5-4f93-b410-e26d4af17ab1.png)](https://youtu.be/PNLVLtlSrio)
 
