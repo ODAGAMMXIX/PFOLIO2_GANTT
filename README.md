@@ -8,7 +8,7 @@
 #
 #
 #
-![](![image](https://user-images.githubusercontent.com/54047352/142968066-33394dd3-a3a5-4f93-b410-e26d4af17ab1.png)(https://youtu.be/PNLVLtlSrio)
+![image](https://user-images.githubusercontent.com/54047352/142968066-33394dd3-a3a5-4f93-b410-e26d4af17ab1.png)(https://youtu.be/PNLVLtlSrio)
 
 ###**I - RESUMO DO PROJETO.**
 
