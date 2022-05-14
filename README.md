@@ -36,7 +36,7 @@ Programa simples e funcional, de baixa manutenção para:
 
 **ARQUITETURA**
 
-**1- Camadas:**
+**1) Camadas:**
  
  ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
  
@@ -47,33 +47,33 @@ Programa simples e funcional, de baixa manutenção para:
 ![2](imgs//MicrosoftTeams-image%20(1).png)
 
 
-**2- Modelagem Conceitual - Banco de Dados MYSQL.**
+**2) Modelagem Conceitual - Banco de Dados MYSQL.**
 
 ![ModelagemConceitual](https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG)
 
-**3- Diagrama Lógico - MYSQL**
+**3) Diagrama Lógico - MYSQL**
 
 ![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
 
-**4- Tela de Login.**
+**4) Tela de Login.**
 
 ![Login](https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG)
 
-**5- Tela de Cadastro do Projeto com CRUD**.
+**5) Tela de Cadastro do Projeto com CRUD**.
 
 ![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
 
-**6- Tela de Cadastro do colaborador com CRUD.**
+**6) Tela de Cadastro do colaborador com CRUD.**
 
 ![CadastroFuncionarios](https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG)
 
-**7- Tela de Cadastro da Tarefa com CRUD**.
+**7) Tela de Cadastro da Tarefa com CRUD**.
 
 ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
  
 ![2](imgs/MicrosoftTeams-image.jpg)
 
-**8- Gráfico de Gantt interativo** com seleção de projeto, cada tarefa com a data inicial e final e suas dependências (**clica-arrasta-redimensiona**).
+**8) Gráfico de Gantt interativo** com seleção de projeto, cada tarefa com a data inicial e final e suas dependências (**clica-arrasta-redimensiona**).
 
 ![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
 
