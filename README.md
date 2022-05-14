@@ -1,13 +1,21 @@
-# PORTFOLIO - LIST OF ACADEMIC PROJECTS:
+## PORTFOLIO ACADÊMICO - PROJETOS INTEGRADORES:
 
-[PROJECT-SEMESTRE-01-2019.2 - *Python WebBot - Scrapping - Public Safety Monitor*](https://github.com/ODAGAMMXIX/PFOLIO1_DANZO) 
+[SEMESTRE-01-2019.2 - *Python-Sqlite3 Web Scrapper - Monitor de Segurança Pública*](https://github.com/ODAGAMMXIX/PFOLIO1_DANZO) 
 
-### [PROJECT-SEMESTRE-02-2020.1 - *Java Stand Alone GANTT Chart tool*](https://github.com/ODAGAMMXIX/PFOLIO2_GANTT)
+## [SEMESTRE-02-2020.1 - *Java-MySQL Stand Alone App - Gráfico de GANTT para Gestores*](https://github.com/ODAGAMMXIX/PFOLIO2_GANTT)
 
-[PROJECT-SEMESTRE-03-2020.2 - *Java Web App - Benefits According Credit Score*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE) 
-#
-## ***SECOND PROJECT, SEMESTRE-02-2020.1 - Java Stand Alone GANTT Chart tool***
-#
+[SEMESTRE-03-2020.2 - *Java-Oracle - Gamificação, Monetização, Fidelização e Educação Financeira*](https://github.com/ODAGAMMXIX/PFOLIO3_VALCODE)
+
+[SEMESTRE-04-2021.1 - *Java-Oracle API - Recrutamento por Geolocalização et al*](https://github.com/ODAGAMMXIX/PFOLIO4_JOBNATION)
+
+[SEMESTRE-05-2021.2 - *Java-Pentaho-My(SQL)Server-MongoDB-Engajamento Estudantil*](https://github.com/ODAGAMMXIX/PFOLIO4_JOBNATION)
+
+[SEMESTRE-06-2022.1 - *Python-MongoDB-LGPD opt-in opt-out ou Análise de Dados Eleitorais*](https://github.com/ODAGAMMXIX/PFOLIO4_JOBNATION)
+
+***
+
+<h1 align="center">[Java-MySQL Stand Alone App - Gráfico de GANTT para Gestores]</h1>
+
 [![image](https://user-images.githubusercontent.com/54047352/142968066-33394dd3-a3a5-4f93-b410-e26d4af17ab1.png)](https://youtu.be/PNLVLtlSrio)
 
 ### **I - RESUMO DO PROJETO.**
