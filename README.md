@@ -38,7 +38,7 @@ Programa simples e funcional, de baixa manutenção para:
 
 :arrow_right: Permitir **um dia = unidade mínima de tempo**;
 
-
+Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) para praticar a linguagem ensinada no semestre.
 
 
 **1) Arquitetura:**
@@ -62,7 +62,7 @@ Programa simples e funcional, de baixa manutenção para:
  <img src="imgs//MicrosoftTeams-image%20(1).png">
 </p>
 
-**2) Modelagem Conceitual - Banco de Dados MYSQL.**
+**2) Modelagem Conceitual - Banco de Dados ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).**
 
 <p align="center">
  <img width="860" height="600" src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
@@ -70,7 +70,7 @@ Programa simples e funcional, de baixa manutenção para:
 
 
 
-**3) Diagrama Lógico - MYSQL**
+**3) Diagrama Lógico - ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)**
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
@@ -130,11 +130,11 @@ Programa simples e funcional, de baixa manutenção para:
 
 # II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-- linguagem: ***Java*** (métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs)
+- Linguagem ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs, com destaque para:
 
-    Classes, Objetos. Atributos e Métodos de Acesso;​
+    :arrow_forward: Classes, Objetos. Atributos e Métodos de Acesso;​
 
-    Construtores, Getters and Setters;​
+    :orange_circle: Construtores, Getters and Setters;​
 
     Arrays, ArrayLists;​
 
