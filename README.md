@@ -218,7 +218,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 <h3 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h3>
 
-:orange_circle:  ***Conector*** com instruções SQL para bancos de dados relacionais, definido pela IBM como *Java™ database connectivity (JDBC) is the JavaSoft specification of a standard application programming interface (API) that allows Java programs to access database management systems. The JDBC API consists of a set of interfaces and classes written in the Java programming language.*(https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc)
+:orange_circle:  ***Conector*** com instruções SQL para bancos de dados relacionais, definido pela IBM como [*Java™ database connectivity (JDBC) is the JavaSoft specification of a standard application programming interface (API) that allows Java programs to access database management systems. The JDBC API consists of a set of interfaces and classes written in the Java programming language.*](https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png">
@@ -226,7 +226,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 <h3 align="center"> Data Access Object (DAO) </h3>
 
-:orange_circle:  Desin Pattern adaptável, utilizado para conexão com, e CRUD no, Banco de Dados, assim definido pela Oracle: *The DAO pattern allows data access mechanisms to change independently of the code that uses the data.*(https://www.oracle.com/java/technologies/data-access-object.html)
+:orange_circle:  Desin Pattern adaptável, utilizado para conexão com, e CRUD no, Banco de Dados, assim definido pela Oracle: [*The DAO pattern allows data access mechanisms to change independently of the code that uses the data.*](https://www.oracle.com/java/technologies/data-access-object.html)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG">
@@ -260,9 +260,9 @@ Foram testadas e abandonadas:
 
 <h3 align="center">PESQUISA E DESENVOLVIMENTO</h3>
 
-- Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
+ - Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
 
-- **Descobri a biblioteca ***Nebula*** **e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
+ - **Descobri a biblioteca** ***Nebula*** e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
 
  <p align="center">
 <img src="imgs/MicrosoftTeams-image9.png">
@@ -270,7 +270,7 @@ Foram testadas e abandonadas:
 
 
 <h3 align="center">ADMINISTRADOR DE BANCO DE DADOS</h3>
-- **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
+ - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
 <h4 align="center">TABELA "TAREFA"</h4> 
 
@@ -294,7 +294,7 @@ Foram testadas e abandonadas:
 
 
 
-- Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e editei os vídeos;
+ - Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e editei os vídeos;
 
 # IIII - APRENDIZADOS EFETIVOS
 
@@ -318,4 +318,4 @@ Foram testadas e abandonadas:
  
 :heavy_check_mark: Introdução ao estudo autônomo do ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white), necessário para garantir o trabalho contínuo da equipe em isolmento social;
 
-:heavy_check_mark: ***soft skills:*** com o início da Pandemia do COVID-19, foi necessária a negoiação individual com os colegas e professores para consolidar o projeto, exigida a imersão técnica durante o isolamento social.
+:heavy_check_mark: ***soft skills:*** Pesquisando, administrando banco de dados e vendando a solução como *Product Owner*, com o início da Pandemia do COVID-19, foi necessária a negoiação individual com os colegas e professores para consolidar o projeto, exigida a imersão técnica durante o isolamento social.
