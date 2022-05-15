@@ -270,6 +270,7 @@ Foram testadas e abandonadas:
 
 
 <h3 align="center">ADMINISTRADOR DE BANCO DE DADOS</h3>
+
  - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
 <h4 align="center">TABELA "TAREFA"</h4> 
