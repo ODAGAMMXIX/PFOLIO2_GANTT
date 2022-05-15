@@ -50,7 +50,7 @@ Programa simples e funcional, de baixa manutenção para:
 </p>
 
 <p align="center"> 
- <img width="260" height="270"  src="https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png">
+ <img width="360" height="470"  src="https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png">
  
 </p>
 
