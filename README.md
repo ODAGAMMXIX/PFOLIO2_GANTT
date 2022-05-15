@@ -324,3 +324,7 @@ Neste projeto, atuei como *Product Owner*, agente de pesquisa e desenvolvimento 
 :heavy_check_mark: Introdução ao estudo autônomo do ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white), necessário para garantir o trabalho contínuo da equipe em isolmento social;
 
 :heavy_check_mark: ***Soft skills:*** Pesquisando, administrando banco de dados e vendando a solução como *Product Owner*, com o início da Pandemia do COVID-19, foi necessária a negoiação individual com os colegas e professores para consolidar o projeto, exigida a imersão técnica durante o isolamento social.
+
+The End.
+:arrow_up: 
+[`Go Back Up`](#python-sqlite3-web-scrapper---monitor-de-seguran%C3%A7a-p%C3%BAblica).
