@@ -50,7 +50,7 @@ Programa simples e funcional, de baixa manutenção para:
 </p>
 
 <p align="center"> 
- <img src="https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png">
+ <img width="260" height="270"  src="https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png">
  
 </p>
 
@@ -65,7 +65,7 @@ Programa simples e funcional, de baixa manutenção para:
 **2) Modelagem Conceitual - Banco de Dados MYSQL.**
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
+ <img width="660" height="500" src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
 </p>
 
 
@@ -82,7 +82,7 @@ Programa simples e funcional, de baixa manutenção para:
 **4) Tela de Login.**
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG">
+ <img width="260" height="160" src="https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG">
 </p>
 
 
@@ -118,7 +118,7 @@ Programa simples e funcional, de baixa manutenção para:
 **8) Gráfico de Gantt interativo** com seleção de projeto, cada tarefa com a data inicial e final e suas dependências (**clica-arrasta-redimensiona**).
  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG">
+<img width="760" height="500"  src="https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG">
  </p>
  
  
@@ -174,17 +174,17 @@ Programa simples e funcional, de baixa manutenção para:
 -- ***JavaFx***: para aplicações desktop (front-end), com telas para exibição CRUD para classes Tarefa, Projeto e Funcionário.
 
  <p align="center">
-<img src="https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG">
+<img width="760" height="500" src="https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG">
 </p>
 
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG">
+<img width="760" height="500" src="https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG">
 </p>
 
 <p align="center">
-<img src="imgs/MicrosoftTeams-image%20(7).png">
+<img width="560" height="400" src="imgs/MicrosoftTeams-image%20(7).png">
 </p>
 
 
@@ -195,7 +195,6 @@ Programa simples e funcional, de baixa manutenção para:
 <img src="https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG">
  </p>
  
-![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
  
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(6).png">
