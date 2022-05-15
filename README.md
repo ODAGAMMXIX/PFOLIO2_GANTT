@@ -149,7 +149,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 :orange_circle: Tratamento de Erros (Try & Catch & Finally);​
 
 #
-## Bibliotecas ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white), por camada: 
+## Bibliotecas ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) e Classes, por camada: 
 #
 
 <h3 align="center">VIEW</h3>
@@ -220,15 +220,15 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 <h3 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h3>
 
-***Conector*** com instruções SQL para bancos de dados relacionais; 
+:orange_circle:  ***Conector*** com instruções SQL para bancos de dados relacionais, definido pela IBM como *Java™ database connectivity (JDBC) is the JavaSoft specification of a standard application programming interface (API) that allows Java programs to access database management systems. The JDBC API consists of a set of interfaces and classes written in the Java programming language.*(https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png">
 </p>
 
-<h3 align="center">DAO</h3>
+<h3 align="center"> Data Access Object (DAO) </h3>
 
-Para conexão e CRUD com o Banco de Dados.
+:orange_circle:  Desin Pattern adaptável, utilizado para conexão com, e CRUD no, Banco de Dados, assim definido pela Oracle: *The DAO pattern allows data access mechanisms to change independently of the code that uses the data.*(https://www.oracle.com/java/technologies/data-access-object.html)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG">
