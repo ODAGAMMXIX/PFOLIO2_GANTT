@@ -132,29 +132,32 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 - Linguagem ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs, com destaque para:
 
-    :arrow_forward: Classes, Objetos. Atributos e Métodos de Acesso;​
+    :orange_circle:  Classes, Objetos. Atributos e Métodos de Acesso;​
 
     :orange_circle: Construtores, Getters and Setters;​
 
-    Arrays, ArrayLists;​
+    :orange_circle: Arrays, ArrayLists;​
 
-    Polimorfismo;​
+    :orange_circle: Polimorfismo;​
 
-    C.R.U.D.;​
+    :orange_circle: C.R.U.D.;​
 
-    Java Database Conectivity (JDBC);​
+   :orange_circle:  Java Database Conectivity (JDBC);​
 
-    Data Access Object (DAO);​
+    :orange_circle: Data Access Object (DAO);​
 
-    Tratamento de Erros (Try & Catch & Finally);​
+    :orange_circle: Tratamento de Erros (Try & Catch & Finally);​
 
 #
-- Bibliotecas: 
+- Bibliotecas ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): 
 #
---***Util***: [*"Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array)"*](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html).
+
+<h1 align="center">VIEW</h1>
+
+:orange_circle: ***Util***: [*"Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array)"*](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html).
 
 
---***Calendar***: produz valores típicos de calendário, com formatação de data e hora e dependência no gráfico de Gantt.
+:orange_circle: ***Calendar***: produz valores típicos de calendário, com formatação de data e hora e dependência no gráfico de Gantt.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG">
  
@@ -164,14 +167,14 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 </p>
 
 
--- ***Nebula***: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrasta-redimensiona) e interação de dependência.
+:orange_circle:  ***Nebula***: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrasta-redimensiona) e interação de dependência.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG">
 </p>
 
 
--- ***JavaFx***: para aplicações desktop (front-end), com telas para exibição CRUD para classes Tarefa, Projeto e Funcionário.
+:orange_circle:  ***JavaFx***: para aplicações desktop (front-end), com telas para exibição CRUD para classes Tarefa, Projeto e Funcionário.
 
  <p align="center">
 <img width="760" height="500" src="https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG">
@@ -188,8 +191,9 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 </p>
 
 
+<h1 align="center">CONTROLLER</h1>
 
-- Camada ***Controller***: classes Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
+Classes: Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
 
  <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG">
@@ -201,24 +205,31 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 </p>
 
 
+<h1 align="center">SERVICE</h1>
 
-- Camada ***Service***: classes Tarefa Service e Cadastro Service com métodos na interface DAO.
+Classes TarefaService e CadastroService com métodos na interface DAO.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG">
 </p>
 
 
+<h1 align="center">SERVICE IMPLEMENTS</h1>
 
- - Camada ***Service implements***: classes Tarefa e Cadastro, com métodos definidos no Service com interface DAO usando o JDBC.
+Classes Tarefa e Cadastro, com métodos definidos no Service com interface ***DAO*** usando o ***JDBC***.
 
-- ***Java Database Connectivity (JDBC)*** conector com instruções SQL par bancos de dados relacionais; 
+<h1 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h1>
+
+Conector com instruções SQL para bancos de dados relacionais; 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png">
 </p>
 
+<h1 align="center">DAO</h1>
 
+Para conexão e CRUD com o Banco de Dados.
 
-- Classes ***DAO***: para conexão e CRUD com o Banco de Dados.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG">
 </p>
@@ -226,7 +237,8 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 - IDE Eclipse.
 
-- SGBD: MySQL.
+- SGBD: ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
+- 
  <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png">
 </p>
@@ -234,10 +246,10 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 -  metodologia: Scrum.
 
-- ci: Docker / DockerCompose.
+- ci: ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) / DockerCompose.
 
 Foram testadas e abandonadas:
-- SGBD: PostgreSQL.
+- SGBD: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white).
 - Biblioteca Gantt / JFreeCharts.
 
 <p align="center">
@@ -248,7 +260,7 @@ Foram testadas e abandonadas:
  
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
 
-- Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo Scrum Master e segundo Product Owner.
+- Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
 
 - **Descobri a biblioteca ***Nebula*** **e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
 
@@ -260,14 +272,14 @@ Foram testadas e abandonadas:
 
 - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
-TABELA TAREFA
+TABELA "TAREFA"
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(2).png">
 </p>
 
 
-TABELA PROJETO
+TABELA "PROJETO"
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(3).png">
@@ -275,7 +287,7 @@ TABELA PROJETO
 
 
 
-TABELA USUÁRIO
+TABELA "USUÁRIO"
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(4).png">
@@ -283,11 +295,11 @@ TABELA USUÁRIO
 
 
 
-- Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e vídeos;
+- Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e editei os vídeos;
 
 # IIII - APRENDIZADOS EFETIVOS
 
--  Tratamento de EVENTOS:
+:heavy_check_mark:  Tratamento de EVENTOS:
  
 <p align="center">
 <img src="imgs/MicrosoftTeams-image8.png">
@@ -295,14 +307,16 @@ TABELA USUÁRIO
  
 
 
-- Aplicação desktop;
-- administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.)
+:heavy_check_mark: Desafios de uma aplicação Desktop;
+
+
+:heavy_check_mark: administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.)
  
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
  </p>
  
  
-- GitHub;
+:heavy_check_mark: Introdução ao estudo autônomo do GitHub;
 
-- ênfase em ***soft skills*** com o início da Pandemia do COVID-19 com imersão técnica durante o isolamento social.
+:heavy_check_mark: ***soft skills*** com o início da Pandemia do COVID-19, com imersão técnica durante o isolamento social.
