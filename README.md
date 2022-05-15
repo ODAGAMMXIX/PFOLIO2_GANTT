@@ -130,7 +130,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 # II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-- Linguagem ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs, com destaque para:
+:wrench: Linguagem ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs, com destaque para:
 
     :orange_circle:  Classes, Objetos. Atributos e Métodos de Acesso;​
 
@@ -149,7 +149,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
     :orange_circle: Tratamento de Erros (Try & Catch & Finally);​
 
 #
-- Bibliotecas ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): 
+## Bibliotecas ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white), por camada: 
 #
 
 <h1 align="center">VIEW</h1>
@@ -191,9 +191,9 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 </p>
 
 
-<h1 align="center">CONTROLLER</h1>
+<h3 align="center">CONTROLLER</h3>
 
-Classes: Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
+***Classes*** Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
 
  <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG">
@@ -205,28 +205,28 @@ Classes: Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entid
 </p>
 
 
-<h1 align="center">SERVICE</h1>
+<h3 align="center">SERVICE</h3>
 
-Classes TarefaService e CadastroService com métodos na interface DAO.
+***Classes*** TarefaService e CadastroService com métodos na interface DAO.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG">
 </p>
 
 
-<h1 align="center">SERVICE IMPLEMENTS</h1>
+<h3 align="center">SERVICE IMPLEMENTS</h3>
 
-Classes Tarefa e Cadastro, com métodos definidos no Service com interface ***DAO*** usando o ***JDBC***.
+***Classes*** Tarefa e Cadastro, com métodos definidos no Service com interface ***DAO*** usando o ***JDBC***.
 
 <h1 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h1>
 
-Conector com instruções SQL para bancos de dados relacionais; 
+***Conector*** com instruções SQL para bancos de dados relacionais; 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png">
 </p>
 
-<h1 align="center">DAO</h1>
+<h3 align="center">DAO</h3>
 
 Para conexão e CRUD com o Banco de Dados.
 
@@ -234,23 +234,19 @@ Para conexão e CRUD com o Banco de Dados.
 <img src="https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG">
 </p>
 
-
-- IDE Eclipse.
-
-- SGBD: ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
-- 
+:wrench: SGBD: ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
+ 
  <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png">
 </p>
 
-
--  metodologia: Scrum.
-
-- ci: ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) / DockerCompose.
+:wrench: IDE ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white).
+:wrench: IDE ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white).
+:wrench:  metodologia: Scrum.
 
 Foram testadas e abandonadas:
-- SGBD: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white).
-- Biblioteca Gantt / JFreeCharts.
+:wrench: SGBD: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white).
+:wrench: Biblioteca Gantt / JFreeCharts.
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(8).png">
@@ -259,6 +255,8 @@ Foram testadas e abandonadas:
  
  
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
+
+<h3 align="center">PESQUISA E DESENVOLVIMENTO</h3>
 
 - Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
 
@@ -269,25 +267,24 @@ Foram testadas e abandonadas:
 </p>
 
 
-
+<h3 align="center">ADMINISTRADOR DE BANCO DE DADOS</h3>
 - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
-TABELA "TAREFA"
+<h3 align="center">TABELA "TAREFA"</h3> 
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(2).png">
 </p>
 
 
-TABELA "PROJETO"
+<h3 align="center">TABELA "PROJETO"</h3> 
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(3).png">
 </p>
 
 
-
-TABELA "USUÁRIO"
+<h3 align="center">TABELA "USUÁRIO"</h3> 
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(4).png">
