@@ -65,7 +65,7 @@ Programa simples e funcional, de baixa manutenção para:
 **2) Modelagem Conceitual - Banco de Dados MYSQL.**
 
 <p align="center">
- <img width="660" height="500" src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
+ <img width="860" height="600" src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
 </p>
 
 
