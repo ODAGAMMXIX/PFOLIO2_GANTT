@@ -38,7 +38,9 @@ Programa simples e funcional, de baixa manutenção para:
 
 **1) Arquitetura:**
 <p align="center">
- ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
+ 
+![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
+
 </p>
 
 
