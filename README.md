@@ -18,7 +18,7 @@
 
 [![image](https://user-images.githubusercontent.com/54047352/142968066-33394dd3-a3a5-4f93-b410-e26d4af17ab1.png)](https://youtu.be/PNLVLtlSrio)
 
-### **I - RESUMO DO PROJETO.**
+# **I - RESUMO DO PROJETO.**
 
 Empresa parceira "NECTO" figurou como cliente.
 
@@ -26,23 +26,25 @@ Desafio: desenvolver uma aplicação visual emulando um Gráfico de GANTT para g
 
 Programa simples e funcional, de baixa manutenção para:
 
-* **Gerenciar carga horária** por tarefa, por colaborador;
-* **Distribuir uniformemente** as tarefas;
-* Equilibrar a **relação custo x receita** dos projetos;
-* Obter **previsibilidade de faturamento** e de ações comerciais;
-* Gerenciar **tarefas e projetos possíveis**  por equipe;
-* Permitir **um dia = unidade mínima de tempo**;
+:arrow_right: **Gerenciar carga horária** por tarefa, por colaborador;
+:arrow_right: **Distribuir uniformemente** as tarefas;
+:arrow_right: Equilibrar a **relação custo x receita** dos projetos;
+:arrow_right: Obter **previsibilidade de faturamento** e de ações comerciais;
+:arrow_right: Gerenciar **tarefas e projetos possíveis**  por equipe;
+:arrow_right: Permitir **um dia = unidade mínima de tempo**;
 
 
-**ARQUITETURA**
 
-**1) Camadas:**
- 
+
+**1) Arquitetura:**
+<p align="center">
  ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
- 
+</p>
+
+
  ![image](https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png)
  
- **1.1- Diagrama de Casos de Uso.**
+ **1.1) Diagrama de Casos de Uso.**
 
 ![2](imgs//MicrosoftTeams-image%20(1).png)
 
@@ -81,7 +83,7 @@ Programa simples e funcional, de baixa manutenção para:
 
 
 
-### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
+# II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
 - linguagem: ***Java*** (métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs)
 
@@ -161,7 +163,7 @@ Foram testadas e abandonadas:
 ![2](imgs/MicrosoftTeams-image%20(8).png)
 
 
-### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
+# III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
 
 - Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo Scrum Master e segundo Product Owner.
 
@@ -184,7 +186,7 @@ TABELA USUÁRIO
 
 - Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e vídeos;
 
-### IIII - APRENDIZADOS EFETIVOS
+# IIII - APRENDIZADOS EFETIVOS
 
 -  Tratamento de EVENTOS: 
 ![](imgs/MicrosoftTeams-image8.png)
