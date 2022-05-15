@@ -193,7 +193,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 <h3 align="center">CONTROLLER</h3>
 
-***Classes*** Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
+:orange_circle: ***Classes*** Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
 
  <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG">
@@ -207,7 +207,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 <h3 align="center">SERVICE</h3>
 
-***Classes*** TarefaService e CadastroService com métodos na interface DAO.
+:orange_circle: ***Classes*** TarefaService e CadastroService com métodos na interface DAO.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG">
@@ -216,7 +216,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 <h3 align="center">SERVICE IMPLEMENTS</h3>
 
-***Classes*** Tarefa e Cadastro, com métodos definidos no Service com interface ***DAO*** usando o ***JDBC***.
+:orange_circle: ***Classes*** Tarefa e Cadastro, com métodos definidos no Service com interface ***DAO*** usando o ***JDBC***.
 
 <h3 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h3>
 
@@ -262,9 +262,9 @@ Foram testadas e abandonadas:
 
 <h3 align="center">PESQUISA E DESENVOLVIMENTO</h3>
 
- - Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
+:axe: Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
 
- - **Descobri a biblioteca** ***Nebula*** e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
+:axe::axe: **Descobri a biblioteca** ***Nebula*** e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
 
  <p align="center">
 <img src="imgs/MicrosoftTeams-image9.png">
@@ -273,7 +273,7 @@ Foram testadas e abandonadas:
 
 <h3 align="center">ADMINISTRADOR DE BANCO DE DADOS</h3>
 
- - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
+:axe::axe::axe: **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
 <h4 align="center">TABELA "TAREFA"</h4> 
 
@@ -297,7 +297,7 @@ Foram testadas e abandonadas:
 
 
 
- - Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e editei os vídeos;
+:axe::axe::axe::axe: Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e editei os vídeos;
 
 # IIII - APRENDIZADOS EFETIVOS
 
