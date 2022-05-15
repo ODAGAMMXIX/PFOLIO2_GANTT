@@ -27,10 +27,15 @@ Desafio: desenvolver uma aplicação visual emulando um Gráfico de GANTT para g
 Programa simples e funcional, de baixa manutenção para:
 
 :arrow_right: **Gerenciar carga horária** por tarefa, por colaborador;
+
 :arrow_right: **Distribuir uniformemente** as tarefas;
+
 :arrow_right: Equilibrar a **relação custo x receita** dos projetos;
+
 :arrow_right: Obter **previsibilidade de faturamento** e de ações comerciais;
+
 :arrow_right: Gerenciar **tarefas e projetos possíveis**  por equipe;
+
 :arrow_right: Permitir **um dia = unidade mínima de tempo**;
 
 
