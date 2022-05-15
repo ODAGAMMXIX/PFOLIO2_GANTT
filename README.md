@@ -115,7 +115,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 **8) Gráfico de Gantt interativo** com seleção de projeto, cada tarefa com a data inicial e final e suas dependências 
 
-<h3 align="center">(**clica-arrasta-redimensiona** by *Nebula*).</h3>
+<h3 align="center">(clica-arrasta-redimensiona by Nebula).</h3>
  
 <p align="center">
 <img width="760" height="500"  src="https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG">
