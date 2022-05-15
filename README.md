@@ -49,66 +49,77 @@ Programa simples e funcional, de baixa manutenção para:
  
 </p>
 
-![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
-
 <p align="center"> 
-![image](https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png) 
+ <img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png">
+ 
 </p>
+
+![image](https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png)
 
  **1.1) Diagrama de Casos de Uso.**
  
 <p align="center">
+ <img width="460" height="300" src="imgs//MicrosoftTeams-image%20(1).png">
 ![2](imgs//MicrosoftTeams-image%20(1).png)
 </p>
 
 **2) Modelagem Conceitual - Banco de Dados MYSQL.**
 
 <p align="center">
+ <img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
 ![ModelagemConceitual](https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG)
 </p>
 
 **3) Diagrama Lógico - MYSQL**
 
 <p align="center">
+ <img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
 ![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
 </p>
 
 **4) Tela de Login.**
 
 <p align="center">
+ <img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG">
 ![Login](https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG)
 </p>
 
 **5) Tela de Cadastro do Projeto com CRUD**.
 
 <p align="center">
-![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG">
+ ![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
 </p>
 
 **6) Tela de Cadastro do colaborador com CRUD.**
 
 <p align="center">
-![CadastroFuncionarios](https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG">
+ ![CadastroFuncionarios](https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG)
 </p>
 
 **7) Tela de Cadastro da Tarefa com CRUD**.
 
 <p align="center">
-![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG">
+ ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
  </p>
  
  <p align="center">
-![2](imgs/MicrosoftTeams-image.jpg)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image.jpg">
+ ![2](imgs/MicrosoftTeams-image.jpg)
 </p>
 
 **8) Gráfico de Gantt interativo** com seleção de projeto, cada tarefa com a data inicial e final e suas dependências (**clica-arrasta-redimensiona**).
  
 <p align="center">
-![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG">
+ ![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
  </p>
  
 <p align="center">
-![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG">
+ ![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
 </p>
 
 
@@ -140,64 +151,76 @@ Programa simples e funcional, de baixa manutenção para:
 
 --***Calendar***: produz valores típicos de calendário, com formatação de data e hora e dependência no gráfico de Gantt.
 <p align="center">
-![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG">
+ ![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
 #
  
  <p align="center">
-![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG">
+  ![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
   </p>
   
 -- ***Nebula***: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrasta-redimensiona) e interação de dependência.
 
 <p align="center">
-![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG">
+ ![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
 
 -- ***JavaFx***: para aplicações desktop (front-end), com telas para exibição CRUD para classes Tarefa, Projeto e Funcionário.
 
  <p align="center">
-![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG">
+  ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
 </p>
 
 <p align="center">
-![FX](https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG">
+ ![FX](https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG)
 </p>
 
 <p align="center">
-![2](imgs/MicrosoftTeams-image%20(7).png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image%20(7).png">
+ ![2](imgs/MicrosoftTeams-image%20(7).png)
 </p>
 
 - Camada ***Controller***: classes Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
 
  <p align="center">
-![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG">
+ ![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
  </p>
  
   <p align="center">
-![2](imgs/MicrosoftTeams-image%20(6).png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image%20(6).png">
+ ![2](imgs/MicrosoftTeams-image%20(6).png)
 </p>
 
 - Camada ***Service***: classes Tarefa Service e Cadastro Service com métodos na interface DAO.
 <p align="center">
-![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG">
+ ![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
 </p>
 
  - Camada ***Service implements***: classes Tarefa e Cadastro, com métodos definidos no Service com interface DAO usando o JDBC.
 
 - ***Java Database Connectivity (JDBC)*** conector com instruções SQL par bancos de dados relacionais; 
 <p align="center">
-![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png">
+ ![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
 </p>
 
 - Classes ***DAO***: para conexão e CRUD com o Banco de Dados.
 <p align="center">
-![DAO](https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG">
+ ![DAO](https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG)
 </p>
 
 - IDE Eclipse.
 
 - SGBD: MySQL.
  <p align="center">
-![image](https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png">
+ ![image](https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png)
 </p>
 
 -  metodologia: Scrum.
@@ -209,7 +232,8 @@ Foram testadas e abandonadas:
 - Biblioteca Gantt / JFreeCharts.
 
 <p align="center">
-![2](imgs/MicrosoftTeams-image%20(8).png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image%20(8).png">
+ ![2](imgs/MicrosoftTeams-image%20(8).png)
 </p>
 
 # III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
@@ -219,6 +243,7 @@ Foram testadas e abandonadas:
 - **Descobri a biblioteca ***Nebula*** **e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
 
  <p align="center">
+<img width="460" height="300" src="imgs/MicrosoftTeams-image9.png">
  ![](imgs/MicrosoftTeams-image9.png)
 </p>
 
@@ -227,19 +252,22 @@ Foram testadas e abandonadas:
 TABELA TAREFA
 
 <p align="center">
-![2](imgs/MicrosoftTeams-image%20(2).png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image%20(2).png">
+ ![2](imgs/MicrosoftTeams-image%20(2).png)
 </p>
 
 TABELA PROJETO
 
 <p align="center">
-![2](imgs/MicrosoftTeams-image%20(3).png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image%20(3).png">
+ ![2](imgs/MicrosoftTeams-image%20(3).png)
 </p>
 
 TABELA USUÁRIO
 
 <p align="center">
-![2](imgs/MicrosoftTeams-image%20(4).png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image%20(4).png">
+ ![2](imgs/MicrosoftTeams-image%20(4).png)
 </p>
 
 - Realizei as **Apresentações Comerciais** e editei o README.MD em todas as SPRINTS e vídeos;
@@ -249,13 +277,15 @@ TABELA USUÁRIO
 -  Tratamento de EVENTOS:
  
 <p align="center">
-![](imgs/MicrosoftTeams-image8.png)
+<img width="460" height="300" src="imgs/MicrosoftTeams-image8.png">
+ ![](imgs/MicrosoftTeams-image8.png)
 
 - Aplicação desktop;
 - administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.)
  
 <p align="center">
-![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
+<img width="460" height="300" src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
+ ![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
  </p>
  
 - GitHub;
