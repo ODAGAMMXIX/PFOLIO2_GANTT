@@ -132,27 +132,27 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :wrench: Linguagem ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white): métodos *getters, setters* e o *serializable* - processo no qual a instância de um objeto é transformada em uma sequência de bytes, útil para enviar objetos pela rede, salvar em disco ou pra comunicação entre JVMs, com destaque para:
 
-    :orange_circle:  Classes, Objetos. Atributos e Métodos de Acesso;​
+:orange_circle:  Classes, Objetos. Atributos e Métodos de Acesso;​
 
-    :orange_circle: Construtores, Getters and Setters;​
+:orange_circle: Construtores, Getters and Setters;​
 
-    :orange_circle: Arrays, ArrayLists;​
+:orange_circle: Arrays, ArrayLists;​
 
-    :orange_circle: Polimorfismo;​
+:orange_circle: Polimorfismo;​
 
-    :orange_circle: C.R.U.D.;​
+:orange_circle: C.R.U.D.;​
 
-   :orange_circle:  Java Database Conectivity (JDBC);​
+:orange_circle:  Java Database Conectivity (JDBC);​
 
-    :orange_circle: Data Access Object (DAO);​
+:orange_circle: Data Access Object (DAO);​
 
-    :orange_circle: Tratamento de Erros (Try & Catch & Finally);​
+:orange_circle: Tratamento de Erros (Try & Catch & Finally);​
 
 #
 ## Bibliotecas ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white), por camada: 
 #
 
-<h1 align="center">VIEW</h1>
+<h3 align="center">VIEW</h3>
 
 :orange_circle: ***Util***: [*"Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array)"*](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html).
 
@@ -218,7 +218,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 ***Classes*** Tarefa e Cadastro, com métodos definidos no Service com interface ***DAO*** usando o ***JDBC***.
 
-<h1 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h1>
+<h3 align="center">JAVA DATABASE CONECTIVITY (JDBC)</h3>
 
 ***Conector*** com instruções SQL para bancos de dados relacionais; 
 
@@ -241,11 +241,15 @@ Para conexão e CRUD com o Banco de Dados.
 </p>
 
 :wrench: IDE ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white).
+
 :wrench: IDE ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white).
+
 :wrench:  metodologia: Scrum.
 
 Foram testadas e abandonadas:
+
 :wrench: SGBD: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white).
+
 :wrench: Biblioteca Gantt / JFreeCharts.
 
 <p align="center">
@@ -270,21 +274,21 @@ Foram testadas e abandonadas:
 <h3 align="center">ADMINISTRADOR DE BANCO DE DADOS</h3>
 - **Fui um dos DBA do projeto**, administrando o banco de dados com as seguintes tabelas:
 
-<h3 align="center">TABELA "TAREFA"</h3> 
+<h4 align="center">TABELA "TAREFA"</h4> 
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(2).png">
 </p>
 
 
-<h3 align="center">TABELA "PROJETO"</h3> 
+<h4 align="center">TABELA "PROJETO"</h4> 
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(3).png">
 </p>
 
 
-<h3 align="center">TABELA "USUÁRIO"</h3> 
+<h4 align="center">TABELA "USUÁRIO"</h4> 
 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(4).png">
@@ -316,4 +320,4 @@ Foram testadas e abandonadas:
  
 :heavy_check_mark: Introdução ao estudo autônomo do GitHub;
 
-:heavy_check_mark: ***soft skills*** com o início da Pandemia do COVID-19, com imersão técnica durante o isolamento social.
+:heavy_check_mark: ***soft skills:*** com o início da Pandemia do COVID-19, foi necessária a negoiação individual com os colegas e professores para consolidar o projeto, exigida a imersão técnica durante o isolamento social.
