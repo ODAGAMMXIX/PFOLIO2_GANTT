@@ -42,6 +42,7 @@ Programa simples e funcional, de baixa manutenção para:
 
 
 **1) Arquitetura:**
+
 <p align="center">
  
 ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
@@ -49,7 +50,9 @@ Programa simples e funcional, de baixa manutenção para:
 </p>
 
 <p align="center">
+ 
  ![image](https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png)
+ 
 </p>
 
  **1.1) Diagrama de Casos de Uso.**
