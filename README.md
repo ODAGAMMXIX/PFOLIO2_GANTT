@@ -59,11 +59,8 @@ Programa simples e funcional, de baixa manutenção para:
  **1.1) Diagrama de Casos de Uso.**
  
 <p align="center">
- <img width="460" height="300" src="imgs//MicrosoftTeams-image%20(1).png">
+ <img src="imgs//MicrosoftTeams-image%20(1).png">
 </p>
-
-![2](imgs//MicrosoftTeams-image%20(1).png)
-
 
 **2) Modelagem Conceitual - Banco de Dados MYSQL.**
 
