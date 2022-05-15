@@ -299,7 +299,9 @@ Foram testadas e abandonadas:
 
 # IIII - APRENDIZADOS EFETIVOS
 
-:heavy_check_mark:  Tratamento de EVENTOS (***Event Listeners***) (https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html), melhor definidos como "*An event can be defined as changing the state of an object or behavior by performing actions. Actions can be a button click, cursor movement, keypress through keyboard or page scrolling, etc.*" (https://www.geeksforgeeks.org/event-handling-in-java/)
+Neste projeto, atuei como *Product Owner*, agente de pesquisa e desenvolvimento (*R&D*) e administrador de banco de dados.
+
+:heavy_check_mark:  Tratamento de EVENTOS [(***Event Listeners***)](https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html), melhor definidos como ["*An event can be defined as changing the state of an object or behavior by performing actions. Actions can be a button click, cursor movement, keypress through keyboard or page scrolling, etc.*"](https://www.geeksforgeeks.org/event-handling-in-java/)
  
 <p align="center">
 <img src="imgs/MicrosoftTeams-image8.png">
@@ -310,7 +312,7 @@ Foram testadas e abandonadas:
 :heavy_check_mark: Desafios de uma aplicação Desktop, direcionados pelas limitações da biblioteca *Nebula*, a mais versátil e apropriada para os requisitos funcionais do projeto; porém, incompatível com o padrão web.
 
 
-:heavy_check_mark: administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.), em auto-aprendizado, por meio da documentação do ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
+:heavy_check_mark: Administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.), em auto-aprendizado, por meio da documentação do ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
  
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
@@ -319,4 +321,4 @@ Foram testadas e abandonadas:
  
 :heavy_check_mark: Introdução ao estudo autônomo do ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white), necessário para garantir o trabalho contínuo da equipe em isolmento social;
 
-:heavy_check_mark: ***soft skills:*** Pesquisando, administrando banco de dados e vendando a solução como *Product Owner*, com o início da Pandemia do COVID-19, foi necessária a negoiação individual com os colegas e professores para consolidar o projeto, exigida a imersão técnica durante o isolamento social.
+:heavy_check_mark: ***Soft skills:*** Pesquisando, administrando banco de dados e vendando a solução como *Product Owner*, com o início da Pandemia do COVID-19, foi necessária a negoiação individual com os colegas e professores para consolidar o projeto, exigida a imersão técnica durante o isolamento social.
