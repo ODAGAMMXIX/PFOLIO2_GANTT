@@ -146,7 +146,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 :orange_circle:  ***Nebula***: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrasta-redimensiona) e interação de dependência.
 <details><summary>(Clique aqui)</summary>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG">
+<img src="/imgs/Screenshot from 2022-06-18 13-11-32.png">
 </p>
 </details>
 
