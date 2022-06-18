@@ -224,7 +224,7 @@ Foram testadas e abandonadas:
 
 :wrench: SGBD: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white).
 
-:wrench: Biblioteca Gantt / JFreeCharts.
+:wrench: Biblioteca Gantt / JFreeCharts (Estudada e Abandonada).
 
 <details><summary>(Clique aqui)</summary>
 <p align="center">
