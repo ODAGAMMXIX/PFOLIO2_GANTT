@@ -21,14 +21,6 @@
 
 <h5 align="center">(vídeo)</h5>
 
-<h1 align="center">[Java-MySQL Stand Alone App - Gráfico de GANTT para Gestores]</h1>
-
- <details><summary> Gantt:</summary>
-<p align="center">
- <img src="https://user-images.githubusercontent.com/54047352/142968066-33394dd3-a3a5-4f93-b410-e26d4af17ab1.png">
-</p>
- </details>
-
 # **I - RESUMO DO PROJETO.**
 
 Desafio: desenvolver uma aplicação visual emulando um Gráfico de GANTT para gerenciar o tempo de seus recursos humanos em projetos de desenvolvimento de softwares.
@@ -50,20 +42,20 @@ Desafio: desenvolver uma aplicação visual emulando um Gráfico de GANTT para g
 Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) para praticar a linguagem ensinada no semestre.
 
 
-<details><summary> 1) Arquitetura:</summary>
+<details><summary> 1) Arquitetura.</summary>
  <p align="center"> 
 <img src="https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG">
  <img src="https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png">
   </p>
 </details>
 
- <details><summary> 1.1) Diagrama de Casos de Uso:</summary>
+ <details><summary> 1.1) Diagrama de Casos de Uso.</summary>
 <p align="center">
  <img src="imgs//MicrosoftTeams-image%20(1).png">
 </p>
  </details>
 
-2) Modelagem Conceitual - Banco de Dados ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
+2) Modelagem Conceitual - Banco de Dados. ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
 
  <details><summary> Modelo:</summary>
 <p align="center">
@@ -71,7 +63,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 </p>
  </details>
 
-3) Diagrama Lógico - ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+3) Diagrama Lógico - ![MySQL].(https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 <details><summary> Diagrama:</summary>
 <p align="center">
@@ -144,7 +136,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :orange_circle: ***Calendar***: produz valores típicos de calendário, com formatação de data e hora e dependência no gráfico de Gantt.
 
-<details><summary>Calendar:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG">
  <img src="https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG">
@@ -152,7 +144,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
  </details>
 
 :orange_circle:  ***Nebula***: gera o gráfico de GANTT personalizável, permite a interação do usuário (clica-arrasta-redimensiona) e interação de dependência.
-<details><summary>Nebula:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG">
 </p>
@@ -160,7 +152,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :orange_circle:  ***JavaFx***: para aplicações desktop (front-end), com telas para exibição CRUD para classes Tarefa, Projeto e Funcionário.
 
-<details><summary>JavaFx:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG">
 <img src="https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG">
@@ -172,7 +164,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :orange_circle: ***Classes*** Projeto, Tarefa e Cadastros, com 2 classes *Controller* para cada entidade (.java e .fxml de conexão com o javaFx ao front-end). 
 
-<details><summary>Controller:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG">
 <img src="imgs/MicrosoftTeams-image%20(6).png">
@@ -183,7 +175,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :orange_circle: ***Classes*** TarefaService e CadastroService com métodos na interface DAO.
 
-<details><summary>Service:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG">
 </p>
@@ -198,7 +190,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :orange_circle:  ***Conector*** com instruções SQL para bancos de dados relacionais, definido pela IBM como [*Java™ database connectivity (JDBC) is the JavaSoft specification of a standard application programming interface (API) that allows Java programs to access database management systems. The JDBC API consists of a set of interfaces and classes written in the Java programming language.*](https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc)
 
-<details><summary>Conector:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png">
 </p>
@@ -208,7 +200,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :orange_circle:  Desin Pattern adaptável, utilizado para conexão com, e CRUD no, Banco de Dados, assim definido pela Oracle: [*The DAO pattern allows data access mechanisms to change independently of the code that uses the data.*](https://www.oracle.com/java/technologies/data-access-object.html)
 
-<details><summary>DAO:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG">
 </p>
@@ -216,7 +208,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 :wrench: SGBD: ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
  
-<details><summary>SGBD:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png">
 </p>
@@ -234,7 +226,7 @@ Foram testadas e abandonadas:
 
 :wrench: Biblioteca Gantt / JFreeCharts.
 
-<details><summary>Biblioteca:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(8).png">
 </p>
@@ -249,7 +241,7 @@ Foram testadas e abandonadas:
 :axe: Atuei como **agente de pesquisa e desenvolvimento** (*R&D*) e segundo *Scrum Master* e segundo *Product Owner*.
 
 :axe::axe: **Descobri a biblioteca** ***Nebula*** e ensinei os colegas a integrá-la ao código (**possibilitou a entrega de gráfico INTERATIVO**).
-<details><summary>Nebula:</summary>
+<details><summary>(Clique aqui)</summary>
  <p align="center">
 <img src="imgs/MicrosoftTeams-image9.png">
 </p>
@@ -261,7 +253,7 @@ Foram testadas e abandonadas:
 
 <h4 align="center">TABELA "TAREFA"</h4> 
 
-<details><summary>Tarefa:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(2).png">
 </p>
@@ -269,7 +261,7 @@ Foram testadas e abandonadas:
 
 <h4 align="center">TABELA "PROJETO"</h4> 
 
-<details><summary>Projeto:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(3).png">
 </p>
@@ -277,7 +269,7 @@ Foram testadas e abandonadas:
 
 
 <h4 align="center">TABELA "USUÁRIO"</h4> 
-<details><summary>Usuário:</summary>
+<details><summary>(Clique aqui)</summary>
 <p align="center">
 <img src="imgs/MicrosoftTeams-image%20(4).png">
 </p>
@@ -292,7 +284,7 @@ Neste projeto, atuei como *Product Owner*, agente de pesquisa e desenvolvimento 
 
 :heavy_check_mark:  Tratamento de EVENTOS [(***Event Listeners***)](https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html), melhor definidos como ["*An event can be defined as changing the state of an object or behavior by performing actions. Actions can be a button click, cursor movement, keypress through keyboard or page scrolling, etc.*"](https://www.geeksforgeeks.org/event-handling-in-java/)
 
-<details><summary>Eventos:</summary> 
+<details><summary>Eventos.</summary> 
 <p align="center">
 <img src="imgs/MicrosoftTeams-image8.png">
  </p>
@@ -304,7 +296,7 @@ Neste projeto, atuei como *Product Owner*, agente de pesquisa e desenvolvimento 
 
 :heavy_check_mark: Administração e desenvolvimento de banco de dados (comandos básicos INSERT, UPDATE, DELETE, SELECT, ALTER TABLE etc.), em auto-aprendizado, por meio da documentação do ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
 
- <details><summary>Banco de dados:</summary>
+ <details><summary>Banco de dados.</summary>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
  </p>
