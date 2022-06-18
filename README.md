@@ -57,7 +57,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 2) Modelagem Conceitual - Banco de Dados. ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white).
 
- <details><summary> Modelo:</summary>
+ <details><summary> Modelo.</summary>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG">
 </p>
@@ -65,7 +65,7 @@ Escolhemos o ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-t
 
 3) Diagrama Lógico - ![MySQL].(https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-<details><summary> Diagrama:</summary>
+<details><summary> Diagrama.</summary>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG">
 </p> 
