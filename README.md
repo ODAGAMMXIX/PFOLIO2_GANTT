@@ -280,7 +280,7 @@ Foram testadas e abandonadas:
 
 # IIII - APRENDIZADOS EFETIVOS
 
-Neste projeto, atuei como *Product Owner*, agente de pesquisa e desenvolvimento (*R&D*) e administrador de banco de dados.
+Neste projeto, atuei como agente de pesquisa e desenvolvimento (*R&D*), administrador de banco de dados, *Product Owner* e *Scrum Master*.
 
 :heavy_check_mark:  Tratamento de EVENTOS [(***Event Listeners***)](https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html), melhor definidos como ["*An event can be defined as changing the state of an object or behavior by performing actions. Actions can be a button click, cursor movement, keypress through keyboard or page scrolling, etc.*"](https://www.geeksforgeeks.org/event-handling-in-java/)
 
@@ -302,9 +302,9 @@ Neste projeto, atuei como *Product Owner*, agente de pesquisa e desenvolvimento 
  </p>
  </details>
  
-:heavy_check_mark: Introdução ao estudo autônomo do ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white), necessário para garantir o trabalho contínuo da equipe em isolmento social;
+:heavy_check_mark: Introdução ao estudo autônomo do ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white), necessário para garantir o trabalho contínuo da equipe em isolamento social;
 
-:heavy_check_mark: ***Soft skills:*** Pesquisa em sites estrangeiros, administração de banco de dados, trabalho comercial e de relacionamento com stakeholders. Com o início da Pandemia do COVID-19, foi necessária a negociação individual com os colegas e professores para consolidar o projeto, exigida imersão técnica durante o isolamento social.
+:heavy_check_mark: ***Soft skills:*** Pesquisa em sites estrangeiros, administração de banco de dados, trabalho comercial e de relacionamento com stakeholders. Com o início da Pandemia do COVID-19 e a saída de 2 *Scrum Team Members*, foi necessária muita negociação individual com os colegas e professores para consolidar o projeto, exigida imersão técnica durante o isolamento social.
 
 The End.
 :arrow_up: 
